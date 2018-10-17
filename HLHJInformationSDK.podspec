@@ -10,11 +10,11 @@ Pod::Spec.new do |s|
                    DESC
 
   s.platform =   :ios, "9.0"
-  s.ios.deployment_target = "7.0"
+  s.ios.deployment_target = "8.0"
 
   s.homepage     = "https://github.com/zaijianrumo/HLHJInformationSDK"
   s.source       = { :git => "https://github.com/zaijianrumo/HLHJInformationSDK.git", :tag => "1.0.0"  }
-  s.source_files = "HLHJInformationSDK/**"
+  s.source_files = "HLHJInformationSDK/**/*.{h,m}"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "zaijianrumo" => "2245190733@qq.com" }
   s.requires_arc  = true
