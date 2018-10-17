@@ -1,0 +1,25 @@
+//
+//  HLHJPrefixHeader.pch
+//  HLHJInformationSDK
+//
+//  Created by mac on 2018/6/4.
+//  Copyright © 2018年 mac. All rights reserved.
+//
+
+#ifndef HLHJPrefixHeader_pch
+#define HLHJPrefixHeader_pch
+
+
+#import "UIColor+HLHJHex.h"
+#import "YYModel.h"
+#import "Masonry.h"
+#import "UIImageView+WebCache.h"
+#import "HLHJInfomationNetWorkTool.h"
+#import "MJRefresh.h"
+
+#import <TMSDK/TMEngineConfig.h>
+
+
+#define BASE_URL [TMEngineConfig instance].domain
+
+#endif /* HLHJPrefixHeader_pch */

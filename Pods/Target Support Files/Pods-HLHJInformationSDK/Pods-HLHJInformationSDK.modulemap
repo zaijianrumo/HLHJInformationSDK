@@ -1,0 +1,6 @@
+framework module Pods_HLHJInformationSDK {
+  umbrella header "Pods-HLHJInformationSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
