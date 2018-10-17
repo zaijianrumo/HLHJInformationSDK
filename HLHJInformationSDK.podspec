@@ -13,10 +13,10 @@ Pod::Spec.new do |s|
   s.platform =   :ios, "9.0"
   s.ios.deployment_target = "7.0"
 
-  s.homepage     = "https://github.com/zaijianrumo/HLHJNewsSDK"
+  s.homepage     = "https://github.com/zaijianrumo/HLHJInformationSDK"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "zaijianrumo" => "2245190733@qq.com" }
-  s.source       = { :git => "https://github.com/zaijianrumo/HLHJNewsSDK.git", :tag => "1.0.0"  }
+  s.source       = { :git => "https://github.com/zaijianrumo/HLHJInformationSDK.git", :tag => "1.0.0"  }
 
 
   s.dependency            "AFNetworking","~>3.2.1"
@@ -32,8 +32,7 @@ Pod::Spec.new do |s|
   s.dependency            "ZFPlayer","~>3.1.6"
   s.dependency            "SDCycleScrollView","~>1.75"
 
-
-  s.source_files           = "HLHJNewsSDK/HLHJInformationSDK/*.{h,m}"
+  s.source_files           = "HLHJInformationSDK/**/*.{h,m}"
 
   # s.frameworks = "TMSDK", "SetI001","UMSocialCore","UShareUI","TMShare","UMSocialNetwork"
   #s.resources          = "HLHJProjectSDK/HLHJSpecialTopicsResource.bundle"
