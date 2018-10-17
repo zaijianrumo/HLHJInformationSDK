@@ -7,81 +7,92 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		041391812143C20400A08BED /* HLHJNewProjectListCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0413917F2143C20400A08BED /* HLHJNewProjectListCell.h */; };
-		041391822143C20400A08BED /* HLHJNewProjectListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 041391802143C20400A08BED /* HLHJNewProjectListCell.m */; };
-		041391912143CB5C00A08BED /* HLHJNewDetailCommonToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0413918F2143CB5C00A08BED /* HLHJNewDetailCommonToolView.m */; };
-		041391922143CD6400A08BED /* HLHJNewDetailCommonToolView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0413918E2143CB5C00A08BED /* HLHJNewDetailCommonToolView.h */; };
-		041391952143D0B100A08BED /* HLHJNewDetailSectionOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 041391932143D0B000A08BED /* HLHJNewDetailSectionOneCell.m */; };
-		041391962143D0B100A08BED /* HLHJNewDetailSectionOneCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 041391942143D0B000A08BED /* HLHJNewDetailSectionOneCell.h */; };
-		04173DC720CE738200660F6F /* HLHJRecommendSix1TableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 04173DC520CE738200660F6F /* HLHJRecommendSix1TableViewCell.h */; };
-		04173DC820CE738200660F6F /* HLHJRecommendSix1TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04173DC620CE738200660F6F /* HLHJRecommendSix1TableViewCell.m */; };
-		042F248F20E082920018D1AA /* UIView+HLHJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F247A20E082920018D1AA /* UIView+HLHJ.m */; };
-		042F249020E082920018D1AA /* HLHJColumnMenuCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 042F247B20E082920018D1AA /* HLHJColumnMenuCell.h */; };
-		042F249120E082920018D1AA /* HLHJColumnMenuHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 042F247C20E082920018D1AA /* HLHJColumnMenuHeaderView.h */; };
-		042F249220E082920018D1AA /* HLHJConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F247D20E082920018D1AA /* HLHJConfig.m */; };
-		042F249320E082920018D1AA /* HLHJColumnMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F247E20E082920018D1AA /* HLHJColumnMenu.m */; };
-		042F249420E082920018D1AA /* HLHJColumnMenuModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 042F247F20E082920018D1AA /* HLHJColumnMenuModel.h */; };
-		042F249520E082920018D1AA /* HLHJColumnMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F248020E082920018D1AA /* HLHJColumnMenuCell.m */; };
-		042F249620E082920018D1AA /* UIView+HLHJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 042F248120E082920018D1AA /* UIView+HLHJ.h */; };
-		042F249720E082920018D1AA /* HLHJColumnMenuHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F248220E082920018D1AA /* HLHJColumnMenuHeaderView.m */; };
-		042F249820E082920018D1AA /* HLHJConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 042F248320E082920018D1AA /* HLHJConfig.h */; };
-		042F249920E082920018D1AA /* HLHJColumnMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F248420E082920018D1AA /* HLHJColumnMenuModel.m */; };
-		042F249A20E082920018D1AA /* HLHJColumnMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 042F248520E082920018D1AA /* HLHJColumnMenu.h */; };
-		042F24AA20E0CC340018D1AA /* HLHJContentModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 042F24A820E0CC340018D1AA /* HLHJContentModel.h */; };
-		042F24AB20E0CC340018D1AA /* HLHJContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F24A920E0CC340018D1AA /* HLHJContentModel.m */; };
-		042F24AE20E0D3960018D1AA /* HLHJRecommendFiveTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 042F24AC20E0D3960018D1AA /* HLHJRecommendFiveTableViewCell.h */; };
-		042F24AF20E0D3960018D1AA /* HLHJRecommendFiveTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F24AD20E0D3960018D1AA /* HLHJRecommendFiveTableViewCell.m */; };
-		042F24BD20E0DEF50018D1AA /* HLHJRecommendOneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 042F24BC20E0DEF40018D1AA /* HLHJRecommendOneTableViewCell.m */; };
-		043ED10420C4EBAD00FF6933 /* HLHJNewsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 043ED10220C4EBAD00FF6933 /* HLHJNewsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		043ED16720C5074000FF6933 /* HLHJPrefixHeader.pch in Headers */ = {isa = PBXBuildFile; fileRef = 043ED16620C5074000FF6933 /* HLHJPrefixHeader.pch */; };
-		043ED16F20C508A400FF6933 /* HLHJNewsBaseVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 043ED16D20C508A400FF6933 /* HLHJNewsBaseVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		043ED17020C508A400FF6933 /* HLHJNewsBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 043ED16E20C508A400FF6933 /* HLHJNewsBaseVC.m */; };
-		043ED17520C5090C00FF6933 /* HLHJNewsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 043ED17320C5090C00FF6933 /* HLHJNewsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		043ED17620C5090C00FF6933 /* HLHJNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043ED17420C5090C00FF6933 /* HLHJNewsViewController.m */; };
-		0464098E20CF61FE008DF29B /* HLHJInfomationNetWorkTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 0464098C20CF61FE008DF29B /* HLHJInfomationNetWorkTool.h */; };
-		0464098F20CF61FE008DF29B /* HLHJInfomationNetWorkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464098D20CF61FE008DF29B /* HLHJInfomationNetWorkTool.m */; };
-		046409A020CF631F008DF29B /* UIColor+HLHJHex.h in Headers */ = {isa = PBXBuildFile; fileRef = 0464099E20CF631F008DF29B /* UIColor+HLHJHex.h */; };
-		046409A120CF631F008DF29B /* UIColor+HLHJHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464099F20CF631F008DF29B /* UIColor+HLHJHex.m */; };
-		046409A420CF726A008DF29B /* HLHJSubjectNameListModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 046409A220CF726A008DF29B /* HLHJSubjectNameListModel.h */; };
-		046409A520CF726A008DF29B /* HLHJSubjectNameListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 046409A320CF726A008DF29B /* HLHJSubjectNameListModel.m */; };
-		046409BD20CFA4DC008DF29B /* HLHJCategoryNameModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 046409BB20CFA4DC008DF29B /* HLHJCategoryNameModel.h */; };
-		046409BE20CFA4DC008DF29B /* HLHJCategoryNameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 046409BC20CFA4DC008DF29B /* HLHJCategoryNameModel.m */; };
-		0465F12F20C62ADF006CB9E7 /* HLHJRecommendTwoTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0465F12D20C62ADF006CB9E7 /* HLHJRecommendTwoTableViewCell.h */; };
-		0465F13020C62ADF006CB9E7 /* HLHJRecommendTwoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0465F12E20C62ADF006CB9E7 /* HLHJRecommendTwoTableViewCell.m */; };
-		0465F13D20C6598D006CB9E7 /* HLHJRecommendThreeTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0465F13B20C6598D006CB9E7 /* HLHJRecommendThreeTableViewCell.h */; };
-		0465F13E20C6598D006CB9E7 /* HLHJRecommendThreeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0465F13C20C6598D006CB9E7 /* HLHJRecommendThreeTableViewCell.m */; };
-		0465F14120C66A0D006CB9E7 /* HLHJRecommendedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0465F13F20C66A0D006CB9E7 /* HLHJRecommendedViewController.h */; };
-		0465F14220C66A0D006CB9E7 /* HLHJRecommendedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0465F14020C66A0D006CB9E7 /* HLHJRecommendedViewController.m */; };
-		0465F14B20C66F00006CB9E7 /* HLHJRecommendSix2TableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0465F14920C66F00006CB9E7 /* HLHJRecommendSix2TableViewCell.h */; };
-		0465F14C20C66F00006CB9E7 /* HLHJRecommendSix2TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0465F14A20C66F00006CB9E7 /* HLHJRecommendSix2TableViewCell.m */; };
-		0465F14F20C68400006CB9E7 /* HLHJRecommendOneTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0465F14D20C68400006CB9E7 /* HLHJRecommendOneTableViewCell.h */; };
-		047108AF20E21BA900018FC4 /* HLHJNewsDetilModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 047108AD20E21BA900018FC4 /* HLHJNewsDetilModel.h */; };
-		047108B020E21BA900018FC4 /* HLHJNewsDetilModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 047108AE20E21BA900018FC4 /* HLHJNewsDetilModel.m */; };
-		047108BC20E21DF000018FC4 /* HLHJArticleDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 047108BA20E21DF000018FC4 /* HLHJArticleDetailTableViewCell.m */; };
-		047108BD20E21DF000018FC4 /* HLHJArticleDetailTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 047108BB20E21DF000018FC4 /* HLHJArticleDetailTableViewCell.h */; };
-		047108C020E21E8300018FC4 /* HLHJMoreTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 047108BE20E21E8300018FC4 /* HLHJMoreTableViewCell.h */; };
-		047108C120E21E8300018FC4 /* HLHJMoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 047108BF20E21E8300018FC4 /* HLHJMoreTableViewCell.m */; };
-		047108C620E231E200018FC4 /* HLHJNewsSearchViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 047108C420E231E200018FC4 /* HLHJNewsSearchViewController.h */; };
-		047108C720E231E200018FC4 /* HLHJNewsSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047108C520E231E200018FC4 /* HLHJNewsSearchViewController.m */; };
-		0476591320CF5734000FD790 /* HLHJProjectListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0476591120CF5734000FD790 /* HLHJProjectListViewController.h */; };
-		0476591420CF5734000FD790 /* HLHJProjectListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476591220CF5734000FD790 /* HLHJProjectListViewController.m */; };
-		0476591B20CF5CBE000FD790 /* HLHJNewsDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0476591920CF5CBE000FD790 /* HLHJNewsDetailViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0476591C20CF5CBE000FD790 /* HLHJNewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0476591A20CF5CBE000FD790 /* HLHJNewsDetailViewController.m */; };
-		04AEFD9C20E1EEB40083847C /* HLHJBrowserImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AEFD8C20E1EEB40083847C /* HLHJBrowserImageView.h */; };
-		04AEFD9D20E1EEB40083847C /* HLHJPhotoBrowserConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AEFD8D20E1EEB40083847C /* HLHJPhotoBrowserConfig.h */; };
-		04AEFD9E20E1EEB40083847C /* HLHJPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AEFD8E20E1EEB40083847C /* HLHJPhotoBrowser.h */; };
-		04AEFD9F20E1EEB40083847C /* HLHJWaitingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AEFD8F20E1EEB40083847C /* HLHJWaitingView.h */; };
-		04AEFDA020E1EEB40083847C /* HLHJBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AEFD9020E1EEB40083847C /* HLHJBrowserImageView.m */; };
-		04AEFDA120E1EEB40083847C /* HLHJPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AEFD9120E1EEB40083847C /* HLHJPhotoBrowser.m */; };
-		04AEFDA320E1EF6F0083847C /* HLHJWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AEFDA220E1EF6F0083847C /* HLHJWaitingView.m */; };
-		04EA1AA220E33C4400DC649C /* HLHJNewsToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EA1AA020E33C4400DC649C /* HLHJNewsToast.h */; };
-		04EA1AA320E33C4400DC649C /* HLHJNewsToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA1AA120E33C4400DC649C /* HLHJNewsToast.m */; };
-		04EA1AA820E35C4B00DC649C /* HLHJNewsCommentTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EA1AA620E35C4B00DC649C /* HLHJNewsCommentTableCell.h */; };
-		04EA1AA920E35C4B00DC649C /* HLHJNewsCommentTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA1AA720E35C4B00DC649C /* HLHJNewsCommentTableCell.m */; };
-		04EA1AB520E35CC600DC649C /* HLHJNewsConmmetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EA1AB320E35CC600DC649C /* HLHJNewsConmmetModel.h */; };
-		04EA1AB620E35CC600DC649C /* HLHJNewsConmmetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA1AB420E35CC600DC649C /* HLHJNewsConmmetModel.m */; };
-		04EA1AB920E3605700DC649C /* HLHJMoreCommentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EA1AB720E3605700DC649C /* HLHJMoreCommentViewController.h */; };
-		04EA1ABA20E3605700DC649C /* HLHJMoreCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA1AB820E3605700DC649C /* HLHJMoreCommentViewController.m */; };
+		0472E9672177239E00A6EF47 /* HLHJNewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E9012177239E00A6EF47 /* HLHJNewsDetailViewController.m */; };
+		0472E9682177239E00A6EF47 /* HLHJNewsSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E9022177239E00A6EF47 /* HLHJNewsSearchViewController.m */; };
+		0472E9692177239E00A6EF47 /* HLHJMoreCommentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9032177239E00A6EF47 /* HLHJMoreCommentViewController.h */; };
+		0472E96A2177239E00A6EF47 /* HLHJRecommendedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9042177239E00A6EF47 /* HLHJRecommendedViewController.h */; };
+		0472E96B2177239E00A6EF47 /* HLHJProjectListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9052177239E00A6EF47 /* HLHJProjectListViewController.h */; };
+		0472E96C2177239E00A6EF47 /* HLHJNewsBaseVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9062177239E00A6EF47 /* HLHJNewsBaseVC.h */; };
+		0472E96D2177239E00A6EF47 /* HLHJNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E9072177239E00A6EF47 /* HLHJNewsViewController.m */; };
+		0472E96E2177239E00A6EF47 /* HLHJNewsDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9082177239E00A6EF47 /* HLHJNewsDetailViewController.h */; };
+		0472E96F2177239E00A6EF47 /* HLHJNewsSearchViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9092177239E00A6EF47 /* HLHJNewsSearchViewController.h */; };
+		0472E9702177239E00A6EF47 /* HLHJRecommendedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E90A2177239E00A6EF47 /* HLHJRecommendedViewController.m */; };
+		0472E9712177239E00A6EF47 /* HLHJProjectDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E90B2177239E00A6EF47 /* HLHJProjectDetailViewController.m */; };
+		0472E9722177239E00A6EF47 /* HLHJMoreCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E90C2177239E00A6EF47 /* HLHJMoreCommentViewController.m */; };
+		0472E9732177239E00A6EF47 /* HLHJNewsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E90D2177239E00A6EF47 /* HLHJNewsViewController.h */; };
+		0472E9742177239E00A6EF47 /* HLHJNewsBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E90E2177239E00A6EF47 /* HLHJNewsBaseVC.m */; };
+		0472E9752177239E00A6EF47 /* HLHJProjectListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E90F2177239E00A6EF47 /* HLHJProjectListViewController.m */; };
+		0472E9762177239E00A6EF47 /* HSToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9122177239E00A6EF47 /* HSToast.h */; };
+		0472E9772177239E00A6EF47 /* HLHJNewsToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E9132177239E00A6EF47 /* HLHJNewsToast.m */; };
+		0472E9782177239E00A6EF47 /* HLHJNewsToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9142177239E00A6EF47 /* HLHJNewsToast.h */; };
+		0472E9792177239E00A6EF47 /* UMSocialCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0472E9172177239E00A6EF47 /* UMSocialCore.framework */; };
+		0472E97A2177239E00A6EF47 /* UShareUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0472E9182177239E00A6EF47 /* UShareUI.framework */; };
+		0472E97B2177239E00A6EF47 /* TMShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0472E9192177239E00A6EF47 /* TMShare.framework */; };
+		0472E97C2177239E00A6EF47 /* UMSocialNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0472E91A2177239E00A6EF47 /* UMSocialNetwork.framework */; };
+		0472E97D2177239E00A6EF47 /* TMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0472E91C2177239E00A6EF47 /* TMSDK.framework */; };
+		0472E97E2177239E00A6EF47 /* SetI001.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0472E91E2177239E00A6EF47 /* SetI001.framework */; };
+		0472E97F2177239E00A6EF47 /* HLHJInfomationNetWorkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E9202177239E00A6EF47 /* HLHJInfomationNetWorkTool.m */; };
+		0472E9802177239E00A6EF47 /* HLHJInfomationNetWorkTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9212177239E00A6EF47 /* HLHJInfomationNetWorkTool.h */; };
+		0472E9812177239E00A6EF47 /* UIColor+HLHJHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E9232177239E00A6EF47 /* UIColor+HLHJHex.m */; };
+		0472E9822177239E00A6EF47 /* UIColor+HLHJHex.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9242177239E00A6EF47 /* UIColor+HLHJHex.h */; };
+		0472E9832177239E00A6EF47 /* UIView+HLHJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E9262177239E00A6EF47 /* UIView+HLHJ.m */; };
+		0472E9842177239E00A6EF47 /* HLHJColumnMenuCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9272177239E00A6EF47 /* HLHJColumnMenuCell.h */; };
+		0472E9852177239E00A6EF47 /* HLHJColumnMenuHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9282177239E00A6EF47 /* HLHJColumnMenuHeaderView.h */; };
+		0472E9862177239E00A6EF47 /* HLHJConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E9292177239E00A6EF47 /* HLHJConfig.m */; };
+		0472E9872177239E00A6EF47 /* HLHJColumnMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E92A2177239E00A6EF47 /* HLHJColumnMenu.m */; };
+		0472E9882177239E00A6EF47 /* HLHJColumnMenuModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E92B2177239E00A6EF47 /* HLHJColumnMenuModel.h */; };
+		0472E9892177239E00A6EF47 /* HLHJColumnMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E92C2177239E00A6EF47 /* HLHJColumnMenuCell.m */; };
+		0472E98A2177239E00A6EF47 /* UIView+HLHJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E92D2177239E00A6EF47 /* UIView+HLHJ.h */; };
+		0472E98B2177239E00A6EF47 /* HLHJColumnMenuHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E92E2177239E00A6EF47 /* HLHJColumnMenuHeaderView.m */; };
+		0472E98C2177239E00A6EF47 /* HLHJConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E92F2177239E00A6EF47 /* HLHJConfig.h */; };
+		0472E98D2177239E00A6EF47 /* HLHJColumnMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E9302177239E00A6EF47 /* HLHJColumnMenuModel.m */; };
+		0472E98E2177239E00A6EF47 /* HLHJColumnMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9312177239E00A6EF47 /* HLHJColumnMenu.h */; };
+		0472E98F2177239E00A6EF47 /* HLHJPrefixHeader.pch in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9332177239E00A6EF47 /* HLHJPrefixHeader.pch */; };
+		0472E9902177239E00A6EF47 /* HLHJNewsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9342177239E00A6EF47 /* HLHJNewsSDK.h */; };
+		0472E9912177239E00A6EF47 /* HLHJPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E9362177239E00A6EF47 /* HLHJPhotoBrowser.m */; };
+		0472E9922177239E00A6EF47 /* HLHJWaitingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9372177239E00A6EF47 /* HLHJWaitingView.h */; };
+		0472E9932177239E00A6EF47 /* SDPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9382177239E00A6EF47 /* SDPhotoBrowser.h */; };
+		0472E9942177239E00A6EF47 /* HLHJBrowserImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9392177239E00A6EF47 /* HLHJBrowserImageView.h */; };
+		0472E9952177239E00A6EF47 /* HLHJWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E93A2177239E00A6EF47 /* HLHJWaitingView.m */; };
+		0472E9962177239E00A6EF47 /* HLHJPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E93B2177239E00A6EF47 /* HLHJPhotoBrowser.h */; };
+		0472E9972177239E00A6EF47 /* HLHJPhotoBrowserConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E93C2177239E00A6EF47 /* HLHJPhotoBrowserConfig.h */; };
+		0472E9982177239E00A6EF47 /* HLHJBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E93D2177239E00A6EF47 /* HLHJBrowserImageView.m */; };
+		0472E9992177239E00A6EF47 /* HLHJNewDetailCommonToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E9402177239E00A6EF47 /* HLHJNewDetailCommonToolView.m */; };
+		0472E99A2177239E00A6EF47 /* HLHJNewDetailCommonToolView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9412177239E00A6EF47 /* HLHJNewDetailCommonToolView.h */; };
+		0472E99B2177239E00A6EF47 /* HLHJMoreTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9432177239E00A6EF47 /* HLHJMoreTableViewCell.h */; };
+		0472E99C2177239E00A6EF47 /* HLHJNewDetailSectionOneCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9442177239E00A6EF47 /* HLHJNewDetailSectionOneCell.h */; };
+		0472E99D2177239E00A6EF47 /* HLHJArticleDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E9452177239E00A6EF47 /* HLHJArticleDetailTableViewCell.m */; };
+		0472E99E2177239E00A6EF47 /* HLHJNewsCommentTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9462177239E00A6EF47 /* HLHJNewsCommentTableCell.h */; };
+		0472E99F2177239E00A6EF47 /* HLHJMoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E9472177239E00A6EF47 /* HLHJMoreTableViewCell.m */; };
+		0472E9A02177239E00A6EF47 /* HLHJNewsCommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E9482177239E00A6EF47 /* HLHJNewsCommentTableViewCell.m */; };
+		0472E9A12177239E00A6EF47 /* HLHJNewsCommentTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E9492177239E00A6EF47 /* HLHJNewsCommentTableCell.m */; };
+		0472E9A22177239E00A6EF47 /* HLHJArticleDetailTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E94A2177239E00A6EF47 /* HLHJArticleDetailTableViewCell.h */; };
+		0472E9A32177239E00A6EF47 /* HLHJNewDetailSectionOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E94B2177239E00A6EF47 /* HLHJNewDetailSectionOneCell.m */; };
+		0472E9A42177239E00A6EF47 /* HLHJRecommendFiveTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E94D2177239E00A6EF47 /* HLHJRecommendFiveTableViewCell.h */; };
+		0472E9A52177239E00A6EF47 /* HLHJRecommendTwoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E94E2177239E00A6EF47 /* HLHJRecommendTwoTableViewCell.m */; };
+		0472E9A62177239E00A6EF47 /* HLHJRecommendSix1TableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E94F2177239E00A6EF47 /* HLHJRecommendSix1TableViewCell.h */; };
+		0472E9A72177239E00A6EF47 /* HLHJRecommendThreeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E9502177239E00A6EF47 /* HLHJRecommendThreeTableViewCell.m */; };
+		0472E9A82177239E00A6EF47 /* HLHJNewProjectListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E9512177239E00A6EF47 /* HLHJNewProjectListCell.m */; };
+		0472E9A92177239E00A6EF47 /* HLHJRecommendOneTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9522177239E00A6EF47 /* HLHJRecommendOneTableViewCell.h */; };
+		0472E9AA2177239E00A6EF47 /* HLHJRecommendSix2TableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9532177239E00A6EF47 /* HLHJRecommendSix2TableViewCell.h */; };
+		0472E9AB2177239E00A6EF47 /* HLHJRecommendTwoTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9542177239E00A6EF47 /* HLHJRecommendTwoTableViewCell.h */; };
+		0472E9AC2177239E00A6EF47 /* HLHJRecommendFiveTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E9552177239E00A6EF47 /* HLHJRecommendFiveTableViewCell.m */; };
+		0472E9AD2177239E00A6EF47 /* HLHJRecommendSix1TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E9562177239E00A6EF47 /* HLHJRecommendSix1TableViewCell.m */; };
+		0472E9AE2177239E00A6EF47 /* HLHJNewProjectListCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9572177239E00A6EF47 /* HLHJNewProjectListCell.h */; };
+		0472E9AF2177239E00A6EF47 /* HLHJRecommendThreeTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9582177239E00A6EF47 /* HLHJRecommendThreeTableViewCell.h */; };
+		0472E9B02177239E00A6EF47 /* HLHJRecommendSix2TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E9592177239E00A6EF47 /* HLHJRecommendSix2TableViewCell.m */; };
+		0472E9B12177239E00A6EF47 /* HLHJRecommendOneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E95A2177239E00A6EF47 /* HLHJRecommendOneTableViewCell.m */; };
+		0472E9B22177239E00A6EF47 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0472E95B2177239E00A6EF47 /* Info.plist */; };
+		0472E9B32177239E00A6EF47 /* HLHJSubjectNameListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E95D2177239E00A6EF47 /* HLHJSubjectNameListModel.m */; };
+		0472E9B42177239E00A6EF47 /* HLHJNewsConmmetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E95E2177239E00A6EF47 /* HLHJNewsConmmetModel.h */; };
+		0472E9B52177239E00A6EF47 /* HLHJNewsDetilModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E95F2177239E00A6EF47 /* HLHJNewsDetilModel.m */; };
+		0472E9B62177239E00A6EF47 /* HLHJCategoryNameModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9602177239E00A6EF47 /* HLHJCategoryNameModel.h */; };
+		0472E9B72177239E00A6EF47 /* HLHJContentModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9612177239E00A6EF47 /* HLHJContentModel.h */; };
+		0472E9B82177239E00A6EF47 /* HLHJSubjectNameListModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9622177239E00A6EF47 /* HLHJSubjectNameListModel.h */; };
+		0472E9B92177239E00A6EF47 /* HLHJNewsDetilModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472E9632177239E00A6EF47 /* HLHJNewsDetilModel.h */; };
+		0472E9BA2177239E00A6EF47 /* HLHJNewsConmmetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E9642177239E00A6EF47 /* HLHJNewsConmmetModel.m */; };
+		0472E9BB2177239E00A6EF47 /* HLHJContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E9652177239E00A6EF47 /* HLHJContentModel.m */; };
+		0472E9BC2177239E00A6EF47 /* HLHJCategoryNameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0472E9662177239E00A6EF47 /* HLHJCategoryNameModel.m */; };
 		EE53213C231AAE026F5081AD /* Pods_HLHJInformationSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8BE2C83BE63CF8837E1CDFD /* Pods_HLHJInformationSDK.framework */; };
 /* End PBXBuildFile section */
 
@@ -156,6 +167,13 @@
 			remoteGlobalIDString = 34113FF68B1A0A2C19BA089591583D93;
 			remoteInfo = YYModel;
 		};
+		0472E8FD2177239300A6EF47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0476594520CF608A000FD790 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 135F544C6E242486C953CC789B17BD47;
+			remoteInfo = IQKeyboardManager;
+		};
 		04D4B93A20F60D810060545A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0476594520CF608A000FD790 /* Pods.xcodeproj */;
@@ -166,69 +184,94 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0413917F2143C20400A08BED /* HLHJNewProjectListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHJNewProjectListCell.h; sourceTree = "<group>"; };
-		041391802143C20400A08BED /* HLHJNewProjectListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLHJNewProjectListCell.m; sourceTree = "<group>"; };
-		0413918E2143CB5C00A08BED /* HLHJNewDetailCommonToolView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHJNewDetailCommonToolView.h; sourceTree = "<group>"; };
-		0413918F2143CB5C00A08BED /* HLHJNewDetailCommonToolView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLHJNewDetailCommonToolView.m; sourceTree = "<group>"; };
-		041391932143D0B000A08BED /* HLHJNewDetailSectionOneCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJNewDetailSectionOneCell.m; sourceTree = "<group>"; };
-		041391942143D0B000A08BED /* HLHJNewDetailSectionOneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJNewDetailSectionOneCell.h; sourceTree = "<group>"; };
-		04173DC520CE738200660F6F /* HLHJRecommendSix1TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHJRecommendSix1TableViewCell.h; sourceTree = "<group>"; };
-		04173DC620CE738200660F6F /* HLHJRecommendSix1TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLHJRecommendSix1TableViewCell.m; sourceTree = "<group>"; };
-		042F247A20E082920018D1AA /* UIView+HLHJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HLHJ.m"; sourceTree = "<group>"; };
-		042F247B20E082920018D1AA /* HLHJColumnMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJColumnMenuCell.h; sourceTree = "<group>"; };
-		042F247C20E082920018D1AA /* HLHJColumnMenuHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJColumnMenuHeaderView.h; sourceTree = "<group>"; };
-		042F247D20E082920018D1AA /* HLHJConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJConfig.m; sourceTree = "<group>"; };
-		042F247E20E082920018D1AA /* HLHJColumnMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJColumnMenu.m; sourceTree = "<group>"; };
-		042F247F20E082920018D1AA /* HLHJColumnMenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJColumnMenuModel.h; sourceTree = "<group>"; };
-		042F248020E082920018D1AA /* HLHJColumnMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJColumnMenuCell.m; sourceTree = "<group>"; };
-		042F248120E082920018D1AA /* UIView+HLHJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HLHJ.h"; sourceTree = "<group>"; };
-		042F248220E082920018D1AA /* HLHJColumnMenuHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJColumnMenuHeaderView.m; sourceTree = "<group>"; };
-		042F248320E082920018D1AA /* HLHJConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJConfig.h; sourceTree = "<group>"; };
-		042F248420E082920018D1AA /* HLHJColumnMenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJColumnMenuModel.m; sourceTree = "<group>"; };
-		042F248520E082920018D1AA /* HLHJColumnMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJColumnMenu.h; sourceTree = "<group>"; };
-		042F24A820E0CC340018D1AA /* HLHJContentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHJContentModel.h; sourceTree = "<group>"; };
-		042F24A920E0CC340018D1AA /* HLHJContentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLHJContentModel.m; sourceTree = "<group>"; };
-		042F24AC20E0D3960018D1AA /* HLHJRecommendFiveTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHJRecommendFiveTableViewCell.h; sourceTree = "<group>"; };
-		042F24AD20E0D3960018D1AA /* HLHJRecommendFiveTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLHJRecommendFiveTableViewCell.m; sourceTree = "<group>"; };
-		042F24BC20E0DEF40018D1AA /* HLHJRecommendOneTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJRecommendOneTableViewCell.m; sourceTree = "<group>"; };
 		043ED0FF20C4EBAD00FF6933 /* HLHJInformationSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HLHJInformationSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		043ED10220C4EBAD00FF6933 /* HLHJNewsSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHJNewsSDK.h; sourceTree = "<group>"; };
-		043ED10320C4EBAD00FF6933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		043ED16620C5074000FF6933 /* HLHJPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHJPrefixHeader.pch; sourceTree = "<group>"; };
-		043ED16D20C508A400FF6933 /* HLHJNewsBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHJNewsBaseVC.h; sourceTree = "<group>"; };
-		043ED16E20C508A400FF6933 /* HLHJNewsBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLHJNewsBaseVC.m; sourceTree = "<group>"; };
-		043ED17320C5090C00FF6933 /* HLHJNewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHJNewsViewController.h; sourceTree = "<group>"; };
-		043ED17420C5090C00FF6933 /* HLHJNewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLHJNewsViewController.m; sourceTree = "<group>"; };
-		0464098C20CF61FE008DF29B /* HLHJInfomationNetWorkTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHJInfomationNetWorkTool.h; sourceTree = "<group>"; };
-		0464098D20CF61FE008DF29B /* HLHJInfomationNetWorkTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLHJInfomationNetWorkTool.m; sourceTree = "<group>"; };
-		0464099E20CF631F008DF29B /* UIColor+HLHJHex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HLHJHex.h"; sourceTree = "<group>"; };
-		0464099F20CF631F008DF29B /* UIColor+HLHJHex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HLHJHex.m"; sourceTree = "<group>"; };
-		046409A220CF726A008DF29B /* HLHJSubjectNameListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHJSubjectNameListModel.h; sourceTree = "<group>"; };
-		046409A320CF726A008DF29B /* HLHJSubjectNameListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLHJSubjectNameListModel.m; sourceTree = "<group>"; };
-		046409BB20CFA4DC008DF29B /* HLHJCategoryNameModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHJCategoryNameModel.h; sourceTree = "<group>"; };
-		046409BC20CFA4DC008DF29B /* HLHJCategoryNameModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLHJCategoryNameModel.m; sourceTree = "<group>"; };
-		0465F12D20C62ADF006CB9E7 /* HLHJRecommendTwoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHJRecommendTwoTableViewCell.h; sourceTree = "<group>"; };
-		0465F12E20C62ADF006CB9E7 /* HLHJRecommendTwoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLHJRecommendTwoTableViewCell.m; sourceTree = "<group>"; };
 		0465F13520C639B4006CB9E7 /* ZFPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ZFPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0465F13B20C6598D006CB9E7 /* HLHJRecommendThreeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHJRecommendThreeTableViewCell.h; sourceTree = "<group>"; };
-		0465F13C20C6598D006CB9E7 /* HLHJRecommendThreeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLHJRecommendThreeTableViewCell.m; sourceTree = "<group>"; };
-		0465F13F20C66A0D006CB9E7 /* HLHJRecommendedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHJRecommendedViewController.h; sourceTree = "<group>"; };
-		0465F14020C66A0D006CB9E7 /* HLHJRecommendedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLHJRecommendedViewController.m; sourceTree = "<group>"; };
-		0465F14920C66F00006CB9E7 /* HLHJRecommendSix2TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHJRecommendSix2TableViewCell.h; sourceTree = "<group>"; };
-		0465F14A20C66F00006CB9E7 /* HLHJRecommendSix2TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLHJRecommendSix2TableViewCell.m; sourceTree = "<group>"; };
-		0465F14D20C68400006CB9E7 /* HLHJRecommendOneTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHJRecommendOneTableViewCell.h; sourceTree = "<group>"; };
-		047108AD20E21BA900018FC4 /* HLHJNewsDetilModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHJNewsDetilModel.h; sourceTree = "<group>"; };
-		047108AE20E21BA900018FC4 /* HLHJNewsDetilModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLHJNewsDetilModel.m; sourceTree = "<group>"; };
-		047108BA20E21DF000018FC4 /* HLHJArticleDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJArticleDetailTableViewCell.m; sourceTree = "<group>"; };
-		047108BB20E21DF000018FC4 /* HLHJArticleDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJArticleDetailTableViewCell.h; sourceTree = "<group>"; };
-		047108BE20E21E8300018FC4 /* HLHJMoreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJMoreTableViewCell.h; sourceTree = "<group>"; };
-		047108BF20E21E8300018FC4 /* HLHJMoreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJMoreTableViewCell.m; sourceTree = "<group>"; };
-		047108C420E231E200018FC4 /* HLHJNewsSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHJNewsSearchViewController.h; sourceTree = "<group>"; };
-		047108C520E231E200018FC4 /* HLHJNewsSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLHJNewsSearchViewController.m; sourceTree = "<group>"; };
-		0476591120CF5734000FD790 /* HLHJProjectListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHJProjectListViewController.h; sourceTree = "<group>"; };
-		0476591220CF5734000FD790 /* HLHJProjectListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLHJProjectListViewController.m; sourceTree = "<group>"; };
-		0476591920CF5CBE000FD790 /* HLHJNewsDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHJNewsDetailViewController.h; sourceTree = "<group>"; };
-		0476591A20CF5CBE000FD790 /* HLHJNewsDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLHJNewsDetailViewController.m; sourceTree = "<group>"; };
+		0472E9012177239E00A6EF47 /* HLHJNewsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJNewsDetailViewController.m; sourceTree = "<group>"; };
+		0472E9022177239E00A6EF47 /* HLHJNewsSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJNewsSearchViewController.m; sourceTree = "<group>"; };
+		0472E9032177239E00A6EF47 /* HLHJMoreCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJMoreCommentViewController.h; sourceTree = "<group>"; };
+		0472E9042177239E00A6EF47 /* HLHJRecommendedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJRecommendedViewController.h; sourceTree = "<group>"; };
+		0472E9052177239E00A6EF47 /* HLHJProjectListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJProjectListViewController.h; sourceTree = "<group>"; };
+		0472E9062177239E00A6EF47 /* HLHJNewsBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJNewsBaseVC.h; sourceTree = "<group>"; };
+		0472E9072177239E00A6EF47 /* HLHJNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJNewsViewController.m; sourceTree = "<group>"; };
+		0472E9082177239E00A6EF47 /* HLHJNewsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJNewsDetailViewController.h; sourceTree = "<group>"; };
+		0472E9092177239E00A6EF47 /* HLHJNewsSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJNewsSearchViewController.h; sourceTree = "<group>"; };
+		0472E90A2177239E00A6EF47 /* HLHJRecommendedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJRecommendedViewController.m; sourceTree = "<group>"; };
+		0472E90B2177239E00A6EF47 /* HLHJProjectDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJProjectDetailViewController.m; sourceTree = "<group>"; };
+		0472E90C2177239E00A6EF47 /* HLHJMoreCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJMoreCommentViewController.m; sourceTree = "<group>"; };
+		0472E90D2177239E00A6EF47 /* HLHJNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJNewsViewController.h; sourceTree = "<group>"; };
+		0472E90E2177239E00A6EF47 /* HLHJNewsBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJNewsBaseVC.m; sourceTree = "<group>"; };
+		0472E90F2177239E00A6EF47 /* HLHJProjectListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJProjectListViewController.m; sourceTree = "<group>"; };
+		0472E9122177239E00A6EF47 /* HSToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSToast.h; sourceTree = "<group>"; };
+		0472E9132177239E00A6EF47 /* HLHJNewsToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJNewsToast.m; sourceTree = "<group>"; };
+		0472E9142177239E00A6EF47 /* HLHJNewsToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJNewsToast.h; sourceTree = "<group>"; };
+		0472E9172177239E00A6EF47 /* UMSocialCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMSocialCore.framework; sourceTree = "<group>"; };
+		0472E9182177239E00A6EF47 /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UShareUI.framework; sourceTree = "<group>"; };
+		0472E9192177239E00A6EF47 /* TMShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TMShare.framework; sourceTree = "<group>"; };
+		0472E91A2177239E00A6EF47 /* UMSocialNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMSocialNetwork.framework; sourceTree = "<group>"; };
+		0472E91C2177239E00A6EF47 /* TMSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TMSDK.framework; sourceTree = "<group>"; };
+		0472E91E2177239E00A6EF47 /* SetI001.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SetI001.framework; sourceTree = "<group>"; };
+		0472E9202177239E00A6EF47 /* HLHJInfomationNetWorkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJInfomationNetWorkTool.m; sourceTree = "<group>"; };
+		0472E9212177239E00A6EF47 /* HLHJInfomationNetWorkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJInfomationNetWorkTool.h; sourceTree = "<group>"; };
+		0472E9232177239E00A6EF47 /* UIColor+HLHJHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HLHJHex.m"; sourceTree = "<group>"; };
+		0472E9242177239E00A6EF47 /* UIColor+HLHJHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HLHJHex.h"; sourceTree = "<group>"; };
+		0472E9262177239E00A6EF47 /* UIView+HLHJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HLHJ.m"; sourceTree = "<group>"; };
+		0472E9272177239E00A6EF47 /* HLHJColumnMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJColumnMenuCell.h; sourceTree = "<group>"; };
+		0472E9282177239E00A6EF47 /* HLHJColumnMenuHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJColumnMenuHeaderView.h; sourceTree = "<group>"; };
+		0472E9292177239E00A6EF47 /* HLHJConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJConfig.m; sourceTree = "<group>"; };
+		0472E92A2177239E00A6EF47 /* HLHJColumnMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJColumnMenu.m; sourceTree = "<group>"; };
+		0472E92B2177239E00A6EF47 /* HLHJColumnMenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJColumnMenuModel.h; sourceTree = "<group>"; };
+		0472E92C2177239E00A6EF47 /* HLHJColumnMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJColumnMenuCell.m; sourceTree = "<group>"; };
+		0472E92D2177239E00A6EF47 /* UIView+HLHJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HLHJ.h"; sourceTree = "<group>"; };
+		0472E92E2177239E00A6EF47 /* HLHJColumnMenuHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJColumnMenuHeaderView.m; sourceTree = "<group>"; };
+		0472E92F2177239E00A6EF47 /* HLHJConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJConfig.h; sourceTree = "<group>"; };
+		0472E9302177239E00A6EF47 /* HLHJColumnMenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJColumnMenuModel.m; sourceTree = "<group>"; };
+		0472E9312177239E00A6EF47 /* HLHJColumnMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJColumnMenu.h; sourceTree = "<group>"; };
+		0472E9332177239E00A6EF47 /* HLHJPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJPrefixHeader.pch; sourceTree = "<group>"; };
+		0472E9342177239E00A6EF47 /* HLHJNewsSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJNewsSDK.h; sourceTree = "<group>"; };
+		0472E9362177239E00A6EF47 /* HLHJPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJPhotoBrowser.m; sourceTree = "<group>"; };
+		0472E9372177239E00A6EF47 /* HLHJWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJWaitingView.h; sourceTree = "<group>"; };
+		0472E9382177239E00A6EF47 /* SDPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowser.h; sourceTree = "<group>"; };
+		0472E9392177239E00A6EF47 /* HLHJBrowserImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJBrowserImageView.h; sourceTree = "<group>"; };
+		0472E93A2177239E00A6EF47 /* HLHJWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJWaitingView.m; sourceTree = "<group>"; };
+		0472E93B2177239E00A6EF47 /* HLHJPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJPhotoBrowser.h; sourceTree = "<group>"; };
+		0472E93C2177239E00A6EF47 /* HLHJPhotoBrowserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJPhotoBrowserConfig.h; sourceTree = "<group>"; };
+		0472E93D2177239E00A6EF47 /* HLHJBrowserImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJBrowserImageView.m; sourceTree = "<group>"; };
+		0472E9402177239E00A6EF47 /* HLHJNewDetailCommonToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJNewDetailCommonToolView.m; sourceTree = "<group>"; };
+		0472E9412177239E00A6EF47 /* HLHJNewDetailCommonToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJNewDetailCommonToolView.h; sourceTree = "<group>"; };
+		0472E9432177239E00A6EF47 /* HLHJMoreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJMoreTableViewCell.h; sourceTree = "<group>"; };
+		0472E9442177239E00A6EF47 /* HLHJNewDetailSectionOneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJNewDetailSectionOneCell.h; sourceTree = "<group>"; };
+		0472E9452177239E00A6EF47 /* HLHJArticleDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJArticleDetailTableViewCell.m; sourceTree = "<group>"; };
+		0472E9462177239E00A6EF47 /* HLHJNewsCommentTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJNewsCommentTableCell.h; sourceTree = "<group>"; };
+		0472E9472177239E00A6EF47 /* HLHJMoreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJMoreTableViewCell.m; sourceTree = "<group>"; };
+		0472E9482177239E00A6EF47 /* HLHJNewsCommentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJNewsCommentTableViewCell.m; sourceTree = "<group>"; };
+		0472E9492177239E00A6EF47 /* HLHJNewsCommentTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJNewsCommentTableCell.m; sourceTree = "<group>"; };
+		0472E94A2177239E00A6EF47 /* HLHJArticleDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJArticleDetailTableViewCell.h; sourceTree = "<group>"; };
+		0472E94B2177239E00A6EF47 /* HLHJNewDetailSectionOneCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJNewDetailSectionOneCell.m; sourceTree = "<group>"; };
+		0472E94D2177239E00A6EF47 /* HLHJRecommendFiveTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJRecommendFiveTableViewCell.h; sourceTree = "<group>"; };
+		0472E94E2177239E00A6EF47 /* HLHJRecommendTwoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJRecommendTwoTableViewCell.m; sourceTree = "<group>"; };
+		0472E94F2177239E00A6EF47 /* HLHJRecommendSix1TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJRecommendSix1TableViewCell.h; sourceTree = "<group>"; };
+		0472E9502177239E00A6EF47 /* HLHJRecommendThreeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJRecommendThreeTableViewCell.m; sourceTree = "<group>"; };
+		0472E9512177239E00A6EF47 /* HLHJNewProjectListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJNewProjectListCell.m; sourceTree = "<group>"; };
+		0472E9522177239E00A6EF47 /* HLHJRecommendOneTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJRecommendOneTableViewCell.h; sourceTree = "<group>"; };
+		0472E9532177239E00A6EF47 /* HLHJRecommendSix2TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJRecommendSix2TableViewCell.h; sourceTree = "<group>"; };
+		0472E9542177239E00A6EF47 /* HLHJRecommendTwoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJRecommendTwoTableViewCell.h; sourceTree = "<group>"; };
+		0472E9552177239E00A6EF47 /* HLHJRecommendFiveTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJRecommendFiveTableViewCell.m; sourceTree = "<group>"; };
+		0472E9562177239E00A6EF47 /* HLHJRecommendSix1TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJRecommendSix1TableViewCell.m; sourceTree = "<group>"; };
+		0472E9572177239E00A6EF47 /* HLHJNewProjectListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJNewProjectListCell.h; sourceTree = "<group>"; };
+		0472E9582177239E00A6EF47 /* HLHJRecommendThreeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJRecommendThreeTableViewCell.h; sourceTree = "<group>"; };
+		0472E9592177239E00A6EF47 /* HLHJRecommendSix2TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJRecommendSix2TableViewCell.m; sourceTree = "<group>"; };
+		0472E95A2177239E00A6EF47 /* HLHJRecommendOneTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJRecommendOneTableViewCell.m; sourceTree = "<group>"; };
+		0472E95B2177239E00A6EF47 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0472E95D2177239E00A6EF47 /* HLHJSubjectNameListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJSubjectNameListModel.m; sourceTree = "<group>"; };
+		0472E95E2177239E00A6EF47 /* HLHJNewsConmmetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJNewsConmmetModel.h; sourceTree = "<group>"; };
+		0472E95F2177239E00A6EF47 /* HLHJNewsDetilModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJNewsDetilModel.m; sourceTree = "<group>"; };
+		0472E9602177239E00A6EF47 /* HLHJCategoryNameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJCategoryNameModel.h; sourceTree = "<group>"; };
+		0472E9612177239E00A6EF47 /* HLHJContentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJContentModel.h; sourceTree = "<group>"; };
+		0472E9622177239E00A6EF47 /* HLHJSubjectNameListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJSubjectNameListModel.h; sourceTree = "<group>"; };
+		0472E9632177239E00A6EF47 /* HLHJNewsDetilModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJNewsDetilModel.h; sourceTree = "<group>"; };
+		0472E9642177239E00A6EF47 /* HLHJNewsConmmetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJNewsConmmetModel.m; sourceTree = "<group>"; };
+		0472E9652177239E00A6EF47 /* HLHJContentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJContentModel.m; sourceTree = "<group>"; };
+		0472E9662177239E00A6EF47 /* HLHJCategoryNameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJCategoryNameModel.m; sourceTree = "<group>"; };
 		0476591E20CF608A000FD790 /* HLHJInformationSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = HLHJInformationSDK.xcodeproj; sourceTree = "<group>"; };
 		0476591F20CF608A000FD790 /* Pods-HLHJNewsSDK-acknowledgements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "Pods-HLHJNewsSDK-acknowledgements.plist"; path = "Pods/Target Support Files/Pods-HLHJNewsSDK/Pods-HLHJNewsSDK-acknowledgements.plist"; sourceTree = "<group>"; };
 		0476592020CF608A000FD790 /* Pods-HLHJNewsSDK.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-HLHJNewsSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLHJNewsSDK/Pods-HLHJNewsSDK.debug.xcconfig"; sourceTree = "<group>"; };
@@ -271,27 +314,6 @@
 		0476595020CF608A000FD790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0476595120CF608A000FD790 /* HLHJPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHJPrefixHeader.pch; sourceTree = "<group>"; };
 		0476595220CF608A000FD790 /* HLHJNewsSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHJNewsSDK.h; sourceTree = "<group>"; };
-		04AEFD8C20E1EEB40083847C /* HLHJBrowserImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJBrowserImageView.h; sourceTree = "<group>"; };
-		04AEFD8D20E1EEB40083847C /* HLHJPhotoBrowserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJPhotoBrowserConfig.h; sourceTree = "<group>"; };
-		04AEFD8E20E1EEB40083847C /* HLHJPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJPhotoBrowser.h; sourceTree = "<group>"; };
-		04AEFD8F20E1EEB40083847C /* HLHJWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJWaitingView.h; sourceTree = "<group>"; };
-		04AEFD9020E1EEB40083847C /* HLHJBrowserImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJBrowserImageView.m; sourceTree = "<group>"; };
-		04AEFD9120E1EEB40083847C /* HLHJPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJPhotoBrowser.m; sourceTree = "<group>"; };
-		04AEFDA220E1EF6F0083847C /* HLHJWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJWaitingView.m; sourceTree = "<group>"; };
-		04D4B92A20F60D810060545A /* UMSocialCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMSocialCore.framework; sourceTree = "<group>"; };
-		04D4B92B20F60D810060545A /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UShareUI.framework; sourceTree = "<group>"; };
-		04D4B92E20F60D810060545A /* TMShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TMShare.framework; sourceTree = "<group>"; };
-		04D4B92F20F60D810060545A /* UMSocialNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMSocialNetwork.framework; sourceTree = "<group>"; };
-		04EA1A6B20E3233B00DC649C /* TMSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TMSDK.framework; sourceTree = "<group>"; };
-		04EA1A6D20E3233B00DC649C /* SetI001.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SetI001.framework; sourceTree = "<group>"; };
-		04EA1AA020E33C4400DC649C /* HLHJNewsToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHJNewsToast.h; sourceTree = "<group>"; };
-		04EA1AA120E33C4400DC649C /* HLHJNewsToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHJNewsToast.m; sourceTree = "<group>"; };
-		04EA1AA620E35C4B00DC649C /* HLHJNewsCommentTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHJNewsCommentTableCell.h; sourceTree = "<group>"; };
-		04EA1AA720E35C4B00DC649C /* HLHJNewsCommentTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLHJNewsCommentTableCell.m; sourceTree = "<group>"; };
-		04EA1AB320E35CC600DC649C /* HLHJNewsConmmetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHJNewsConmmetModel.h; sourceTree = "<group>"; };
-		04EA1AB420E35CC600DC649C /* HLHJNewsConmmetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLHJNewsConmmetModel.m; sourceTree = "<group>"; };
-		04EA1AB720E3605700DC649C /* HLHJMoreCommentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHJMoreCommentViewController.h; sourceTree = "<group>"; };
-		04EA1AB820E3605700DC649C /* HLHJMoreCommentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLHJMoreCommentViewController.m; sourceTree = "<group>"; };
 		1259AFBA9DA6E983FFAA16D4 /* Pods-HLHJNewsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLHJNewsSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLHJNewsSDK/Pods-HLHJNewsSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		1DBEA97CEF75C85B5BC92701 /* Pods-HLHJNewsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLHJNewsSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLHJNewsSDK/Pods-HLHJNewsSDK.release.xcconfig"; sourceTree = "<group>"; };
 		6439D5BF79A87B0023314512 /* Pods_HLHJNewsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLHJNewsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -305,53 +327,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0472E97E2177239E00A6EF47 /* SetI001.framework in Frameworks */,
+				0472E9792177239E00A6EF47 /* UMSocialCore.framework in Frameworks */,
+				0472E97B2177239E00A6EF47 /* TMShare.framework in Frameworks */,
+				0472E97C2177239E00A6EF47 /* UMSocialNetwork.framework in Frameworks */,
 				EE53213C231AAE026F5081AD /* Pods_HLHJInformationSDK.framework in Frameworks */,
+				0472E97D2177239E00A6EF47 /* TMSDK.framework in Frameworks */,
+				0472E97A2177239E00A6EF47 /* UShareUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		042F247920E082920018D1AA /* HLHJColumnMenu */ = {
-			isa = PBXGroup;
-			children = (
-				042F248120E082920018D1AA /* UIView+HLHJ.h */,
-				042F247A20E082920018D1AA /* UIView+HLHJ.m */,
-				042F248520E082920018D1AA /* HLHJColumnMenu.h */,
-				042F247E20E082920018D1AA /* HLHJColumnMenu.m */,
-				042F247B20E082920018D1AA /* HLHJColumnMenuCell.h */,
-				042F248020E082920018D1AA /* HLHJColumnMenuCell.m */,
-				042F247C20E082920018D1AA /* HLHJColumnMenuHeaderView.h */,
-				042F248220E082920018D1AA /* HLHJColumnMenuHeaderView.m */,
-				042F248320E082920018D1AA /* HLHJConfig.h */,
-				042F247D20E082920018D1AA /* HLHJConfig.m */,
-				042F247F20E082920018D1AA /* HLHJColumnMenuModel.h */,
-				042F248420E082920018D1AA /* HLHJColumnMenuModel.m */,
-			);
-			path = HLHJColumnMenu;
-			sourceTree = "<group>";
-		};
-		042F24B020E0D3AE0018D1AA /* ListCell */ = {
-			isa = PBXGroup;
-			children = (
-				0465F13B20C6598D006CB9E7 /* HLHJRecommendThreeTableViewCell.h */,
-				0465F13C20C6598D006CB9E7 /* HLHJRecommendThreeTableViewCell.m */,
-				0465F12D20C62ADF006CB9E7 /* HLHJRecommendTwoTableViewCell.h */,
-				0465F12E20C62ADF006CB9E7 /* HLHJRecommendTwoTableViewCell.m */,
-				0465F14920C66F00006CB9E7 /* HLHJRecommendSix2TableViewCell.h */,
-				0465F14A20C66F00006CB9E7 /* HLHJRecommendSix2TableViewCell.m */,
-				042F24AC20E0D3960018D1AA /* HLHJRecommendFiveTableViewCell.h */,
-				042F24AD20E0D3960018D1AA /* HLHJRecommendFiveTableViewCell.m */,
-				0465F14D20C68400006CB9E7 /* HLHJRecommendOneTableViewCell.h */,
-				042F24BC20E0DEF40018D1AA /* HLHJRecommendOneTableViewCell.m */,
-				04173DC520CE738200660F6F /* HLHJRecommendSix1TableViewCell.h */,
-				04173DC620CE738200660F6F /* HLHJRecommendSix1TableViewCell.m */,
-				0413917F2143C20400A08BED /* HLHJNewProjectListCell.h */,
-				041391802143C20400A08BED /* HLHJNewProjectListCell.m */,
-			);
-			path = ListCell;
-			sourceTree = "<group>";
-		};
 		043ED0F520C4EBAD00FF6933 = {
 			isa = PBXGroup;
 			children = (
@@ -374,69 +362,9 @@
 		043ED10120C4EBAD00FF6933 /* HLHJInformationSDK */ = {
 			isa = PBXGroup;
 			children = (
-				0464099C20CF62F3008DF29B /* Common */,
-				043ED16520C5071C00FF6933 /* Model */,
-				043ED16420C5070300FF6933 /* View */,
-				043ED16120C506FD00FF6933 /* VC */,
-				043ED10320C4EBAD00FF6933 /* Info.plist */,
+				0472E8FF2177239E00A6EF47 /* Classes */,
 			);
 			path = HLHJInformationSDK;
-			sourceTree = "<group>";
-		};
-		043ED16120C506FD00FF6933 /* VC */ = {
-			isa = PBXGroup;
-			children = (
-				043ED16D20C508A400FF6933 /* HLHJNewsBaseVC.h */,
-				043ED16E20C508A400FF6933 /* HLHJNewsBaseVC.m */,
-				043ED17320C5090C00FF6933 /* HLHJNewsViewController.h */,
-				043ED17420C5090C00FF6933 /* HLHJNewsViewController.m */,
-				0465F13F20C66A0D006CB9E7 /* HLHJRecommendedViewController.h */,
-				0465F14020C66A0D006CB9E7 /* HLHJRecommendedViewController.m */,
-				0476591120CF5734000FD790 /* HLHJProjectListViewController.h */,
-				0476591220CF5734000FD790 /* HLHJProjectListViewController.m */,
-				0476591920CF5CBE000FD790 /* HLHJNewsDetailViewController.h */,
-				0476591A20CF5CBE000FD790 /* HLHJNewsDetailViewController.m */,
-				047108C420E231E200018FC4 /* HLHJNewsSearchViewController.h */,
-				047108C520E231E200018FC4 /* HLHJNewsSearchViewController.m */,
-				04EA1AB720E3605700DC649C /* HLHJMoreCommentViewController.h */,
-				04EA1AB820E3605700DC649C /* HLHJMoreCommentViewController.m */,
-			);
-			path = VC;
-			sourceTree = "<group>";
-		};
-		043ED16420C5070300FF6933 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				0465F14420C66B16006CB9E7 /* View */,
-				0465F14320C66B06006CB9E7 /* Cell */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		043ED16520C5071C00FF6933 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				046409A220CF726A008DF29B /* HLHJSubjectNameListModel.h */,
-				046409A320CF726A008DF29B /* HLHJSubjectNameListModel.m */,
-				046409BB20CFA4DC008DF29B /* HLHJCategoryNameModel.h */,
-				046409BC20CFA4DC008DF29B /* HLHJCategoryNameModel.m */,
-				042F24A820E0CC340018D1AA /* HLHJContentModel.h */,
-				042F24A920E0CC340018D1AA /* HLHJContentModel.m */,
-				047108AD20E21BA900018FC4 /* HLHJNewsDetilModel.h */,
-				047108AE20E21BA900018FC4 /* HLHJNewsDetilModel.m */,
-				04EA1AB320E35CC600DC649C /* HLHJNewsConmmetModel.h */,
-				04EA1AB420E35CC600DC649C /* HLHJNewsConmmetModel.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		043ED16820C5076300FF6933 /* Macro */ = {
-			isa = PBXGroup;
-			children = (
-				043ED10220C4EBAD00FF6933 /* HLHJNewsSDK.h */,
-				043ED16620C5074000FF6933 /* HLHJPrefixHeader.pch */,
-			);
-			path = Macro;
 			sourceTree = "<group>";
 		};
 		0464097420CF6137008DF29B /* Products */ = {
@@ -444,6 +372,7 @@
 			children = (
 				0464099920CF61FF008DF29B /* AFNetworking.framework */,
 				04D4B93B20F60D810060545A /* DZNEmptyDataSet.framework */,
+				0472E8FE2177239300A6EF47 /* IQKeyboardManager.framework */,
 				0464097F20CF6137008DF29B /* Masonry.framework */,
 				0464099B20CF61FF008DF29B /* MJRefresh.framework */,
 				0464098120CF6137008DF29B /* Pods_HLHJInformationSDK.framework */,
@@ -462,61 +391,233 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0464099C20CF62F3008DF29B /* Common */ = {
+		0472E8FF2177239E00A6EF47 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				04EA1A9F20E33C4400DC649C /* Toast */,
-				04EA1A6020E3233B00DC649C /* TMSDK */,
-				04AEFD8A20E1EEB40083847C /* HLHJPhotoBrowser */,
-				042F247920E082920018D1AA /* HLHJColumnMenu */,
-				0464099D20CF6306008DF29B /* Category */,
-				043ED16820C5076300FF6933 /* Macro */,
-				0476591D20CF6075000FD790 /* Tools */,
+				0472E9002177239E00A6EF47 /* VC */,
+				0472E9102177239E00A6EF47 /* Common */,
+				0472E93E2177239E00A6EF47 /* View */,
+				0472E95B2177239E00A6EF47 /* Info.plist */,
+				0472E95C2177239E00A6EF47 /* Model */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0472E9002177239E00A6EF47 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				0472E9012177239E00A6EF47 /* HLHJNewsDetailViewController.m */,
+				0472E9022177239E00A6EF47 /* HLHJNewsSearchViewController.m */,
+				0472E9032177239E00A6EF47 /* HLHJMoreCommentViewController.h */,
+				0472E9042177239E00A6EF47 /* HLHJRecommendedViewController.h */,
+				0472E9052177239E00A6EF47 /* HLHJProjectListViewController.h */,
+				0472E9062177239E00A6EF47 /* HLHJNewsBaseVC.h */,
+				0472E9072177239E00A6EF47 /* HLHJNewsViewController.m */,
+				0472E9082177239E00A6EF47 /* HLHJNewsDetailViewController.h */,
+				0472E9092177239E00A6EF47 /* HLHJNewsSearchViewController.h */,
+				0472E90A2177239E00A6EF47 /* HLHJRecommendedViewController.m */,
+				0472E90B2177239E00A6EF47 /* HLHJProjectDetailViewController.m */,
+				0472E90C2177239E00A6EF47 /* HLHJMoreCommentViewController.m */,
+				0472E90D2177239E00A6EF47 /* HLHJNewsViewController.h */,
+				0472E90E2177239E00A6EF47 /* HLHJNewsBaseVC.m */,
+				0472E90F2177239E00A6EF47 /* HLHJProjectListViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		0472E9102177239E00A6EF47 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0472E9112177239E00A6EF47 /* Toast */,
+				0472E9152177239E00A6EF47 /* TMSDK */,
+				0472E91F2177239E00A6EF47 /* Tools */,
+				0472E9222177239E00A6EF47 /* Category */,
+				0472E9252177239E00A6EF47 /* HLHJColumnMenu */,
+				0472E9322177239E00A6EF47 /* Macro */,
+				0472E9352177239E00A6EF47 /* HLHJPhotoBrowser */,
 			);
 			path = Common;
 			sourceTree = "<group>";
 		};
-		0464099D20CF6306008DF29B /* Category */ = {
+		0472E9112177239E00A6EF47 /* Toast */ = {
 			isa = PBXGroup;
 			children = (
-				0464099E20CF631F008DF29B /* UIColor+HLHJHex.h */,
-				0464099F20CF631F008DF29B /* UIColor+HLHJHex.m */,
+				0472E9122177239E00A6EF47 /* HSToast.h */,
+				0472E9132177239E00A6EF47 /* HLHJNewsToast.m */,
+				0472E9142177239E00A6EF47 /* HLHJNewsToast.h */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		0472E9152177239E00A6EF47 /* TMSDK */ = {
+			isa = PBXGroup;
+			children = (
+				0472E9162177239E00A6EF47 /* TMShareSdk */,
+				0472E91B2177239E00A6EF47 /* Base */,
+				0472E91D2177239E00A6EF47 /* login */,
+			);
+			path = TMSDK;
+			sourceTree = "<group>";
+		};
+		0472E9162177239E00A6EF47 /* TMShareSdk */ = {
+			isa = PBXGroup;
+			children = (
+				0472E9172177239E00A6EF47 /* UMSocialCore.framework */,
+				0472E9182177239E00A6EF47 /* UShareUI.framework */,
+				0472E9192177239E00A6EF47 /* TMShare.framework */,
+				0472E91A2177239E00A6EF47 /* UMSocialNetwork.framework */,
+			);
+			path = TMShareSdk;
+			sourceTree = "<group>";
+		};
+		0472E91B2177239E00A6EF47 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0472E91C2177239E00A6EF47 /* TMSDK.framework */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0472E91D2177239E00A6EF47 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				0472E91E2177239E00A6EF47 /* SetI001.framework */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		0472E91F2177239E00A6EF47 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0472E9202177239E00A6EF47 /* HLHJInfomationNetWorkTool.m */,
+				0472E9212177239E00A6EF47 /* HLHJInfomationNetWorkTool.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		0472E9222177239E00A6EF47 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0472E9232177239E00A6EF47 /* UIColor+HLHJHex.m */,
+				0472E9242177239E00A6EF47 /* UIColor+HLHJHex.h */,
 			);
 			path = Category;
 			sourceTree = "<group>";
 		};
-		0465F14320C66B06006CB9E7 /* Cell */ = {
+		0472E9252177239E00A6EF47 /* HLHJColumnMenu */ = {
 			isa = PBXGroup;
 			children = (
-				041391942143D0B000A08BED /* HLHJNewDetailSectionOneCell.h */,
-				041391932143D0B000A08BED /* HLHJNewDetailSectionOneCell.m */,
-				04EA1AA620E35C4B00DC649C /* HLHJNewsCommentTableCell.h */,
-				04EA1AA720E35C4B00DC649C /* HLHJNewsCommentTableCell.m */,
-				047108BE20E21E8300018FC4 /* HLHJMoreTableViewCell.h */,
-				047108BF20E21E8300018FC4 /* HLHJMoreTableViewCell.m */,
-				047108BB20E21DF000018FC4 /* HLHJArticleDetailTableViewCell.h */,
-				047108BA20E21DF000018FC4 /* HLHJArticleDetailTableViewCell.m */,
-				042F24B020E0D3AE0018D1AA /* ListCell */,
+				0472E9262177239E00A6EF47 /* UIView+HLHJ.m */,
+				0472E9272177239E00A6EF47 /* HLHJColumnMenuCell.h */,
+				0472E9282177239E00A6EF47 /* HLHJColumnMenuHeaderView.h */,
+				0472E9292177239E00A6EF47 /* HLHJConfig.m */,
+				0472E92A2177239E00A6EF47 /* HLHJColumnMenu.m */,
+				0472E92B2177239E00A6EF47 /* HLHJColumnMenuModel.h */,
+				0472E92C2177239E00A6EF47 /* HLHJColumnMenuCell.m */,
+				0472E92D2177239E00A6EF47 /* UIView+HLHJ.h */,
+				0472E92E2177239E00A6EF47 /* HLHJColumnMenuHeaderView.m */,
+				0472E92F2177239E00A6EF47 /* HLHJConfig.h */,
+				0472E9302177239E00A6EF47 /* HLHJColumnMenuModel.m */,
+				0472E9312177239E00A6EF47 /* HLHJColumnMenu.h */,
 			);
-			path = Cell;
+			path = HLHJColumnMenu;
 			sourceTree = "<group>";
 		};
-		0465F14420C66B16006CB9E7 /* View */ = {
+		0472E9322177239E00A6EF47 /* Macro */ = {
 			isa = PBXGroup;
 			children = (
-				0413918E2143CB5C00A08BED /* HLHJNewDetailCommonToolView.h */,
-				0413918F2143CB5C00A08BED /* HLHJNewDetailCommonToolView.m */,
+				0472E9332177239E00A6EF47 /* HLHJPrefixHeader.pch */,
+				0472E9342177239E00A6EF47 /* HLHJNewsSDK.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		0472E9352177239E00A6EF47 /* HLHJPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				0472E9362177239E00A6EF47 /* HLHJPhotoBrowser.m */,
+				0472E9372177239E00A6EF47 /* HLHJWaitingView.h */,
+				0472E9382177239E00A6EF47 /* SDPhotoBrowser.h */,
+				0472E9392177239E00A6EF47 /* HLHJBrowserImageView.h */,
+				0472E93A2177239E00A6EF47 /* HLHJWaitingView.m */,
+				0472E93B2177239E00A6EF47 /* HLHJPhotoBrowser.h */,
+				0472E93C2177239E00A6EF47 /* HLHJPhotoBrowserConfig.h */,
+				0472E93D2177239E00A6EF47 /* HLHJBrowserImageView.m */,
+			);
+			path = HLHJPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		0472E93E2177239E00A6EF47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0472E93F2177239E00A6EF47 /* View */,
+				0472E9422177239E00A6EF47 /* Cell */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		0476591D20CF6075000FD790 /* Tools */ = {
+		0472E93F2177239E00A6EF47 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0464098C20CF61FE008DF29B /* HLHJInfomationNetWorkTool.h */,
-				0464098D20CF61FE008DF29B /* HLHJInfomationNetWorkTool.m */,
+				0472E9402177239E00A6EF47 /* HLHJNewDetailCommonToolView.m */,
+				0472E9412177239E00A6EF47 /* HLHJNewDetailCommonToolView.h */,
 			);
-			path = Tools;
+			path = View;
+			sourceTree = "<group>";
+		};
+		0472E9422177239E00A6EF47 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0472E9432177239E00A6EF47 /* HLHJMoreTableViewCell.h */,
+				0472E9442177239E00A6EF47 /* HLHJNewDetailSectionOneCell.h */,
+				0472E9452177239E00A6EF47 /* HLHJArticleDetailTableViewCell.m */,
+				0472E9462177239E00A6EF47 /* HLHJNewsCommentTableCell.h */,
+				0472E9472177239E00A6EF47 /* HLHJMoreTableViewCell.m */,
+				0472E9482177239E00A6EF47 /* HLHJNewsCommentTableViewCell.m */,
+				0472E9492177239E00A6EF47 /* HLHJNewsCommentTableCell.m */,
+				0472E94A2177239E00A6EF47 /* HLHJArticleDetailTableViewCell.h */,
+				0472E94B2177239E00A6EF47 /* HLHJNewDetailSectionOneCell.m */,
+				0472E94C2177239E00A6EF47 /* ListCell */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0472E94C2177239E00A6EF47 /* ListCell */ = {
+			isa = PBXGroup;
+			children = (
+				0472E94D2177239E00A6EF47 /* HLHJRecommendFiveTableViewCell.h */,
+				0472E94E2177239E00A6EF47 /* HLHJRecommendTwoTableViewCell.m */,
+				0472E94F2177239E00A6EF47 /* HLHJRecommendSix1TableViewCell.h */,
+				0472E9502177239E00A6EF47 /* HLHJRecommendThreeTableViewCell.m */,
+				0472E9512177239E00A6EF47 /* HLHJNewProjectListCell.m */,
+				0472E9522177239E00A6EF47 /* HLHJRecommendOneTableViewCell.h */,
+				0472E9532177239E00A6EF47 /* HLHJRecommendSix2TableViewCell.h */,
+				0472E9542177239E00A6EF47 /* HLHJRecommendTwoTableViewCell.h */,
+				0472E9552177239E00A6EF47 /* HLHJRecommendFiveTableViewCell.m */,
+				0472E9562177239E00A6EF47 /* HLHJRecommendSix1TableViewCell.m */,
+				0472E9572177239E00A6EF47 /* HLHJNewProjectListCell.h */,
+				0472E9582177239E00A6EF47 /* HLHJRecommendThreeTableViewCell.h */,
+				0472E9592177239E00A6EF47 /* HLHJRecommendSix2TableViewCell.m */,
+				0472E95A2177239E00A6EF47 /* HLHJRecommendOneTableViewCell.m */,
+			);
+			path = ListCell;
+			sourceTree = "<group>";
+		};
+		0472E95C2177239E00A6EF47 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0472E95D2177239E00A6EF47 /* HLHJSubjectNameListModel.m */,
+				0472E95E2177239E00A6EF47 /* HLHJNewsConmmetModel.h */,
+				0472E95F2177239E00A6EF47 /* HLHJNewsDetilModel.m */,
+				0472E9602177239E00A6EF47 /* HLHJCategoryNameModel.h */,
+				0472E9612177239E00A6EF47 /* HLHJContentModel.h */,
+				0472E9622177239E00A6EF47 /* HLHJSubjectNameListModel.h */,
+				0472E9632177239E00A6EF47 /* HLHJNewsDetilModel.h */,
+				0472E9642177239E00A6EF47 /* HLHJNewsConmmetModel.m */,
+				0472E9652177239E00A6EF47 /* HLHJContentModel.m */,
+				0472E9662177239E00A6EF47 /* HLHJCategoryNameModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		0476592820CF608A000FD790 /* Pods-HLHJNewsSDK */ = {
@@ -684,66 +785,6 @@
 			name = HLHJNewsSDK;
 			sourceTree = "<group>";
 		};
-		04AEFD8A20E1EEB40083847C /* HLHJPhotoBrowser */ = {
-			isa = PBXGroup;
-			children = (
-				04AEFD8F20E1EEB40083847C /* HLHJWaitingView.h */,
-				04AEFDA220E1EF6F0083847C /* HLHJWaitingView.m */,
-				04AEFD8D20E1EEB40083847C /* HLHJPhotoBrowserConfig.h */,
-				04AEFD8C20E1EEB40083847C /* HLHJBrowserImageView.h */,
-				04AEFD9020E1EEB40083847C /* HLHJBrowserImageView.m */,
-				04AEFD8E20E1EEB40083847C /* HLHJPhotoBrowser.h */,
-				04AEFD9120E1EEB40083847C /* HLHJPhotoBrowser.m */,
-			);
-			path = HLHJPhotoBrowser;
-			sourceTree = "<group>";
-		};
-		04D4B92920F60D810060545A /* TMShareSdk */ = {
-			isa = PBXGroup;
-			children = (
-				04D4B92A20F60D810060545A /* UMSocialCore.framework */,
-				04D4B92B20F60D810060545A /* UShareUI.framework */,
-				04D4B92E20F60D810060545A /* TMShare.framework */,
-				04D4B92F20F60D810060545A /* UMSocialNetwork.framework */,
-			);
-			path = TMShareSdk;
-			sourceTree = "<group>";
-		};
-		04EA1A6020E3233B00DC649C /* TMSDK */ = {
-			isa = PBXGroup;
-			children = (
-				04D4B92920F60D810060545A /* TMShareSdk */,
-				04EA1A6820E3233B00DC649C /* Base */,
-				04EA1A6C20E3233B00DC649C /* login */,
-			);
-			path = TMSDK;
-			sourceTree = "<group>";
-		};
-		04EA1A6820E3233B00DC649C /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				04EA1A6B20E3233B00DC649C /* TMSDK.framework */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		04EA1A6C20E3233B00DC649C /* login */ = {
-			isa = PBXGroup;
-			children = (
-				04EA1A6D20E3233B00DC649C /* SetI001.framework */,
-			);
-			path = login;
-			sourceTree = "<group>";
-		};
-		04EA1A9F20E33C4400DC649C /* Toast */ = {
-			isa = PBXGroup;
-			children = (
-				04EA1AA020E33C4400DC649C /* HLHJNewsToast.h */,
-				04EA1AA120E33C4400DC649C /* HLHJNewsToast.m */,
-			);
-			path = Toast;
-			sourceTree = "<group>";
-		};
 		5A610541D16166484F0DA1AC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -772,45 +813,47 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04EA1AB920E3605700DC649C /* HLHJMoreCommentViewController.h in Headers */,
-				046409A020CF631F008DF29B /* UIColor+HLHJHex.h in Headers */,
-				041391922143CD6400A08BED /* HLHJNewDetailCommonToolView.h in Headers */,
-				04173DC720CE738200660F6F /* HLHJRecommendSix1TableViewCell.h in Headers */,
-				0476591B20CF5CBE000FD790 /* HLHJNewsDetailViewController.h in Headers */,
-				042F24AE20E0D3960018D1AA /* HLHJRecommendFiveTableViewCell.h in Headers */,
-				047108AF20E21BA900018FC4 /* HLHJNewsDetilModel.h in Headers */,
-				0465F14F20C68400006CB9E7 /* HLHJRecommendOneTableViewCell.h in Headers */,
-				043ED17520C5090C00FF6933 /* HLHJNewsViewController.h in Headers */,
-				0465F14120C66A0D006CB9E7 /* HLHJRecommendedViewController.h in Headers */,
-				0465F13D20C6598D006CB9E7 /* HLHJRecommendThreeTableViewCell.h in Headers */,
-				047108C020E21E8300018FC4 /* HLHJMoreTableViewCell.h in Headers */,
-				047108C620E231E200018FC4 /* HLHJNewsSearchViewController.h in Headers */,
-				04AEFD9F20E1EEB40083847C /* HLHJWaitingView.h in Headers */,
-				0465F14B20C66F00006CB9E7 /* HLHJRecommendSix2TableViewCell.h in Headers */,
-				042F249A20E082920018D1AA /* HLHJColumnMenu.h in Headers */,
-				042F24AA20E0CC340018D1AA /* HLHJContentModel.h in Headers */,
-				047108BD20E21DF000018FC4 /* HLHJArticleDetailTableViewCell.h in Headers */,
-				043ED16720C5074000FF6933 /* HLHJPrefixHeader.pch in Headers */,
-				0464098E20CF61FE008DF29B /* HLHJInfomationNetWorkTool.h in Headers */,
-				0465F12F20C62ADF006CB9E7 /* HLHJRecommendTwoTableViewCell.h in Headers */,
-				04AEFD9E20E1EEB40083847C /* HLHJPhotoBrowser.h in Headers */,
-				041391962143D0B100A08BED /* HLHJNewDetailSectionOneCell.h in Headers */,
-				04AEFD9C20E1EEB40083847C /* HLHJBrowserImageView.h in Headers */,
-				046409A420CF726A008DF29B /* HLHJSubjectNameListModel.h in Headers */,
-				04EA1AB520E35CC600DC649C /* HLHJNewsConmmetModel.h in Headers */,
-				042F249020E082920018D1AA /* HLHJColumnMenuCell.h in Headers */,
-				042F249120E082920018D1AA /* HLHJColumnMenuHeaderView.h in Headers */,
-				04EA1AA220E33C4400DC649C /* HLHJNewsToast.h in Headers */,
-				041391812143C20400A08BED /* HLHJNewProjectListCell.h in Headers */,
-				042F249420E082920018D1AA /* HLHJColumnMenuModel.h in Headers */,
-				042F249820E082920018D1AA /* HLHJConfig.h in Headers */,
-				043ED16F20C508A400FF6933 /* HLHJNewsBaseVC.h in Headers */,
-				046409BD20CFA4DC008DF29B /* HLHJCategoryNameModel.h in Headers */,
-				042F249620E082920018D1AA /* UIView+HLHJ.h in Headers */,
-				0476591320CF5734000FD790 /* HLHJProjectListViewController.h in Headers */,
-				04AEFD9D20E1EEB40083847C /* HLHJPhotoBrowserConfig.h in Headers */,
-				043ED10420C4EBAD00FF6933 /* HLHJNewsSDK.h in Headers */,
-				04EA1AA820E35C4B00DC649C /* HLHJNewsCommentTableCell.h in Headers */,
+				0472E98A2177239E00A6EF47 /* UIView+HLHJ.h in Headers */,
+				0472E9902177239E00A6EF47 /* HLHJNewsSDK.h in Headers */,
+				0472E9692177239E00A6EF47 /* HLHJMoreCommentViewController.h in Headers */,
+				0472E99B2177239E00A6EF47 /* HLHJMoreTableViewCell.h in Headers */,
+				0472E96C2177239E00A6EF47 /* HLHJNewsBaseVC.h in Headers */,
+				0472E9B62177239E00A6EF47 /* HLHJCategoryNameModel.h in Headers */,
+				0472E9AE2177239E00A6EF47 /* HLHJNewProjectListCell.h in Headers */,
+				0472E96F2177239E00A6EF47 /* HLHJNewsSearchViewController.h in Headers */,
+				0472E99E2177239E00A6EF47 /* HLHJNewsCommentTableCell.h in Headers */,
+				0472E9802177239E00A6EF47 /* HLHJInfomationNetWorkTool.h in Headers */,
+				0472E9B72177239E00A6EF47 /* HLHJContentModel.h in Headers */,
+				0472E9A62177239E00A6EF47 /* HLHJRecommendSix1TableViewCell.h in Headers */,
+				0472E96E2177239E00A6EF47 /* HLHJNewsDetailViewController.h in Headers */,
+				0472E98F2177239E00A6EF47 /* HLHJPrefixHeader.pch in Headers */,
+				0472E9972177239E00A6EF47 /* HLHJPhotoBrowserConfig.h in Headers */,
+				0472E9A22177239E00A6EF47 /* HLHJArticleDetailTableViewCell.h in Headers */,
+				0472E99C2177239E00A6EF47 /* HLHJNewDetailSectionOneCell.h in Headers */,
+				0472E9932177239E00A6EF47 /* SDPhotoBrowser.h in Headers */,
+				0472E9732177239E00A6EF47 /* HLHJNewsViewController.h in Headers */,
+				0472E9762177239E00A6EF47 /* HSToast.h in Headers */,
+				0472E9AA2177239E00A6EF47 /* HLHJRecommendSix2TableViewCell.h in Headers */,
+				0472E9882177239E00A6EF47 /* HLHJColumnMenuModel.h in Headers */,
+				0472E9B92177239E00A6EF47 /* HLHJNewsDetilModel.h in Headers */,
+				0472E9962177239E00A6EF47 /* HLHJPhotoBrowser.h in Headers */,
+				0472E98E2177239E00A6EF47 /* HLHJColumnMenu.h in Headers */,
+				0472E9842177239E00A6EF47 /* HLHJColumnMenuCell.h in Headers */,
+				0472E99A2177239E00A6EF47 /* HLHJNewDetailCommonToolView.h in Headers */,
+				0472E9822177239E00A6EF47 /* UIColor+HLHJHex.h in Headers */,
+				0472E9A42177239E00A6EF47 /* HLHJRecommendFiveTableViewCell.h in Headers */,
+				0472E9AF2177239E00A6EF47 /* HLHJRecommendThreeTableViewCell.h in Headers */,
+				0472E9B42177239E00A6EF47 /* HLHJNewsConmmetModel.h in Headers */,
+				0472E96B2177239E00A6EF47 /* HLHJProjectListViewController.h in Headers */,
+				0472E9AB2177239E00A6EF47 /* HLHJRecommendTwoTableViewCell.h in Headers */,
+				0472E9922177239E00A6EF47 /* HLHJWaitingView.h in Headers */,
+				0472E9A92177239E00A6EF47 /* HLHJRecommendOneTableViewCell.h in Headers */,
+				0472E9782177239E00A6EF47 /* HLHJNewsToast.h in Headers */,
+				0472E96A2177239E00A6EF47 /* HLHJRecommendedViewController.h in Headers */,
+				0472E9B82177239E00A6EF47 /* HLHJSubjectNameListModel.h in Headers */,
+				0472E98C2177239E00A6EF47 /* HLHJConfig.h in Headers */,
+				0472E9942177239E00A6EF47 /* HLHJBrowserImageView.h in Headers */,
+				0472E9852177239E00A6EF47 /* HLHJColumnMenuHeaderView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -951,6 +994,13 @@
 			remoteRef = 046409B520CF79BC008DF29B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		0472E8FE2177239300A6EF47 /* IQKeyboardManager.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = IQKeyboardManager.framework;
+			remoteRef = 0472E8FD2177239300A6EF47 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		04D4B93B20F60D810060545A /* DZNEmptyDataSet.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -965,6 +1015,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0472E9B22177239E00A6EF47 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1011,42 +1062,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				042F24BD20E0DEF50018D1AA /* HLHJRecommendOneTableViewCell.m in Sources */,
-				04EA1ABA20E3605700DC649C /* HLHJMoreCommentViewController.m in Sources */,
-				042F248F20E082920018D1AA /* UIView+HLHJ.m in Sources */,
-				0476591420CF5734000FD790 /* HLHJProjectListViewController.m in Sources */,
-				04AEFDA020E1EEB40083847C /* HLHJBrowserImageView.m in Sources */,
-				042F249320E082920018D1AA /* HLHJColumnMenu.m in Sources */,
-				041391822143C20400A08BED /* HLHJNewProjectListCell.m in Sources */,
-				043ED17620C5090C00FF6933 /* HLHJNewsViewController.m in Sources */,
-				0465F14220C66A0D006CB9E7 /* HLHJRecommendedViewController.m in Sources */,
-				04AEFDA120E1EEB40083847C /* HLHJPhotoBrowser.m in Sources */,
-				046409BE20CFA4DC008DF29B /* HLHJCategoryNameModel.m in Sources */,
-				041391912143CB5C00A08BED /* HLHJNewDetailCommonToolView.m in Sources */,
-				042F249920E082920018D1AA /* HLHJColumnMenuModel.m in Sources */,
-				047108B020E21BA900018FC4 /* HLHJNewsDetilModel.m in Sources */,
-				0476591C20CF5CBE000FD790 /* HLHJNewsDetailViewController.m in Sources */,
-				0464098F20CF61FE008DF29B /* HLHJInfomationNetWorkTool.m in Sources */,
-				047108BC20E21DF000018FC4 /* HLHJArticleDetailTableViewCell.m in Sources */,
-				0465F13E20C6598D006CB9E7 /* HLHJRecommendThreeTableViewCell.m in Sources */,
-				0465F14C20C66F00006CB9E7 /* HLHJRecommendSix2TableViewCell.m in Sources */,
-				042F24AB20E0CC340018D1AA /* HLHJContentModel.m in Sources */,
-				04EA1AA920E35C4B00DC649C /* HLHJNewsCommentTableCell.m in Sources */,
-				046409A520CF726A008DF29B /* HLHJSubjectNameListModel.m in Sources */,
-				041391952143D0B100A08BED /* HLHJNewDetailSectionOneCell.m in Sources */,
-				046409A120CF631F008DF29B /* UIColor+HLHJHex.m in Sources */,
-				047108C120E21E8300018FC4 /* HLHJMoreTableViewCell.m in Sources */,
-				047108C720E231E200018FC4 /* HLHJNewsSearchViewController.m in Sources */,
-				042F249520E082920018D1AA /* HLHJColumnMenuCell.m in Sources */,
-				042F24AF20E0D3960018D1AA /* HLHJRecommendFiveTableViewCell.m in Sources */,
-				04AEFDA320E1EF6F0083847C /* HLHJWaitingView.m in Sources */,
-				04173DC820CE738200660F6F /* HLHJRecommendSix1TableViewCell.m in Sources */,
-				043ED17020C508A400FF6933 /* HLHJNewsBaseVC.m in Sources */,
-				042F249220E082920018D1AA /* HLHJConfig.m in Sources */,
-				042F249720E082920018D1AA /* HLHJColumnMenuHeaderView.m in Sources */,
-				04EA1AB620E35CC600DC649C /* HLHJNewsConmmetModel.m in Sources */,
-				04EA1AA320E33C4400DC649C /* HLHJNewsToast.m in Sources */,
-				0465F13020C62ADF006CB9E7 /* HLHJRecommendTwoTableViewCell.m in Sources */,
+				0472E9BB2177239E00A6EF47 /* HLHJContentModel.m in Sources */,
+				0472E9BA2177239E00A6EF47 /* HLHJNewsConmmetModel.m in Sources */,
+				0472E98D2177239E00A6EF47 /* HLHJColumnMenuModel.m in Sources */,
+				0472E9B32177239E00A6EF47 /* HLHJSubjectNameListModel.m in Sources */,
+				0472E9A52177239E00A6EF47 /* HLHJRecommendTwoTableViewCell.m in Sources */,
+				0472E9AC2177239E00A6EF47 /* HLHJRecommendFiveTableViewCell.m in Sources */,
+				0472E9742177239E00A6EF47 /* HLHJNewsBaseVC.m in Sources */,
+				0472E9672177239E00A6EF47 /* HLHJNewsDetailViewController.m in Sources */,
+				0472E98B2177239E00A6EF47 /* HLHJColumnMenuHeaderView.m in Sources */,
+				0472E9A72177239E00A6EF47 /* HLHJRecommendThreeTableViewCell.m in Sources */,
+				0472E9892177239E00A6EF47 /* HLHJColumnMenuCell.m in Sources */,
+				0472E9B02177239E00A6EF47 /* HLHJRecommendSix2TableViewCell.m in Sources */,
+				0472E9912177239E00A6EF47 /* HLHJPhotoBrowser.m in Sources */,
+				0472E9872177239E00A6EF47 /* HLHJColumnMenu.m in Sources */,
+				0472E9862177239E00A6EF47 /* HLHJConfig.m in Sources */,
+				0472E9752177239E00A6EF47 /* HLHJProjectListViewController.m in Sources */,
+				0472E9812177239E00A6EF47 /* UIColor+HLHJHex.m in Sources */,
+				0472E9A12177239E00A6EF47 /* HLHJNewsCommentTableCell.m in Sources */,
+				0472E9BC2177239E00A6EF47 /* HLHJCategoryNameModel.m in Sources */,
+				0472E96D2177239E00A6EF47 /* HLHJNewsViewController.m in Sources */,
+				0472E9712177239E00A6EF47 /* HLHJProjectDetailViewController.m in Sources */,
+				0472E9832177239E00A6EF47 /* UIView+HLHJ.m in Sources */,
+				0472E9722177239E00A6EF47 /* HLHJMoreCommentViewController.m in Sources */,
+				0472E9AD2177239E00A6EF47 /* HLHJRecommendSix1TableViewCell.m in Sources */,
+				0472E99D2177239E00A6EF47 /* HLHJArticleDetailTableViewCell.m in Sources */,
+				0472E9702177239E00A6EF47 /* HLHJRecommendedViewController.m in Sources */,
+				0472E9A82177239E00A6EF47 /* HLHJNewProjectListCell.m in Sources */,
+				0472E9B52177239E00A6EF47 /* HLHJNewsDetilModel.m in Sources */,
+				0472E9772177239E00A6EF47 /* HLHJNewsToast.m in Sources */,
+				0472E9B12177239E00A6EF47 /* HLHJRecommendOneTableViewCell.m in Sources */,
+				0472E9A32177239E00A6EF47 /* HLHJNewDetailSectionOneCell.m in Sources */,
+				0472E97F2177239E00A6EF47 /* HLHJInfomationNetWorkTool.m in Sources */,
+				0472E9A02177239E00A6EF47 /* HLHJNewsCommentTableViewCell.m in Sources */,
+				0472E9982177239E00A6EF47 /* HLHJBrowserImageView.m in Sources */,
+				0472E9992177239E00A6EF47 /* HLHJNewDetailCommonToolView.m in Sources */,
+				0472E9952177239E00A6EF47 /* HLHJWaitingView.m in Sources */,
+				0472E99F2177239E00A6EF47 /* HLHJMoreTableViewCell.m in Sources */,
+				0472E9682177239E00A6EF47 /* HLHJNewsSearchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1191,6 +1244,9 @@
 					"$(PROJECT_DIR)/HLHJInformationSDK/Common/TMSDK/TMShareSdk",
 					"$(PROJECT_DIR)/HLHJInformationSDK/Common/TMSDK/Base",
 					"$(PROJECT_DIR)/HLHJInformationSDK/Common/TMSDK/login",
+					"$(PROJECT_DIR)/HLHJInformationSDK/Classes/Common/TMSDK/TMShareSdk",
+					"$(PROJECT_DIR)/HLHJInformationSDK/Classes/Common/TMSDK/Base",
+					"$(PROJECT_DIR)/HLHJInformationSDK/Classes/Common/TMSDK/login",
 				);
 				GCC_PREFIX_HEADER = HLHJInformationSDK/Common/Macro/HLHJPrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/HLHJInformationSDK/Info.plist";
@@ -1236,6 +1292,9 @@
 					"$(PROJECT_DIR)/HLHJInformationSDK/Common/TMSDK/TMShareSdk",
 					"$(PROJECT_DIR)/HLHJInformationSDK/Common/TMSDK/Base",
 					"$(PROJECT_DIR)/HLHJInformationSDK/Common/TMSDK/login",
+					"$(PROJECT_DIR)/HLHJInformationSDK/Classes/Common/TMSDK/TMShareSdk",
+					"$(PROJECT_DIR)/HLHJInformationSDK/Classes/Common/TMSDK/Base",
+					"$(PROJECT_DIR)/HLHJInformationSDK/Classes/Common/TMSDK/login",
 				);
 				GCC_PREFIX_HEADER = HLHJInformationSDK/Common/Macro/HLHJPrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/HLHJInformationSDK/Info.plist";
