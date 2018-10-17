@@ -1,5 +1,4 @@
 
-
 Pod::Spec.new do |s|
 
   s.name         = "HLHJInformationSDK"
@@ -14,9 +13,11 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "7.0"
 
   s.homepage     = "https://github.com/zaijianrumo/HLHJInformationSDK"
+  s.source       = { :git => "https://github.com/zaijianrumo/HLHJInformationSDK.git", :tag => "1.0.0"  }
+  s.source_files = "HLHJInformationSDK/**"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "zaijianrumo" => "2245190733@qq.com" }
-  s.source       = { :git => "https://github.com/zaijianrumo/HLHJInformationSDK.git", :tag => "1.0.0"  }
+  s.requires_arc  = true
 
 
   s.dependency            "AFNetworking","~>3.2.1"
@@ -24,7 +25,7 @@ Pod::Spec.new do |s|
   s.dependency            "MJRefresh","~>3.1.15.3"
   s.dependency            "YYModel","~>1.0.4"
   s.dependency            "SDWebImage","~>4.4.1"
-  s.dependency            "SVProgressHUD","~>2.2.5"
+  s.dependency            "SVProgressHUD","~>2.0.3"
   s.dependency            "IQKeyboardManager","~>6.0.4"
   s.dependency            "DZNEmptyDataSet","~>1.8.1"
   s.dependency            "UMengAnalytics-NO-IDFA","~>4.2.5"
@@ -32,11 +33,4 @@ Pod::Spec.new do |s|
   s.dependency            "ZFPlayer","~>3.1.6"
   s.dependency            "SDCycleScrollView","~>1.75"
 
-  s.source_files           = "HLHJInformationSDK/**/*.{h,m}"
-
-  # s.frameworks = "TMSDK", "SetI001","UMSocialCore","UShareUI","TMShare","UMSocialNetwork"
-  #s.resources          = "HLHJProjectSDK/HLHJSpecialTopicsResource.bundle"
-
-
-
-end
+ end
