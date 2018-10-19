@@ -20,23 +20,23 @@ Pod::Spec.new do |s|
 
   s.source_files            = "HLHJInformationSDK.framework/Headers/*.{h}" 
 
-  s.frameworks = "Foundation","UIKit"
-
   s.ios.vendored_frameworks = "HLHJInformationSDK.framework"
   s.resources               = "HLHJImageResources.bundle"
+  s.xcconfig = {'VALID_ARCHS' => 'arm64 x86_64',
+  }  
 
-  s.dependency            "AFNetworking","~>3.2.1"
-  s.dependency            "Masonry","~>1.1.0" 
-  s.dependency            "MJRefresh","~>3.1.15.3"
-  s.dependency            "YYModel","~>1.0.4"
-  s.dependency            "SDWebImage","~>4.4.1"
-  s.dependency            "SVProgressHUD","~>2.0.3"
-  s.dependency            "IQKeyboardManager","~>6.0.4"
-  s.dependency            "DZNEmptyDataSet","~>1.8.1"
-  s.dependency            "UMengAnalytics-NO-IDFA","~>4.2.5"
-  s.dependency            "WMPageController","~>2.5.2"
-  s.dependency            "ZFPlayer","~>3.1.6"
-  s.dependency            "SDCycleScrollView","~>1.75"
-  s.dependency            "TMUserCenter","~>0.0.3"
+  s.dependency            "AFNetworking"
+  s.dependency            "Masonry"
+  s.dependency            "MJRefresh"
+  s.dependency            "YYModel"
+  s.dependency            "SDWebImage"
+  s.dependency            "SVProgressHUD"
+  s.dependency            "IQKeyboardManager"
+  s.dependency            "DZNEmptyDataSet"
+  s.dependency            "UMengAnalytics-NO-IDFA"
+  s.dependency            "WMPageController"
+  s.dependency            "ZFPlayer"
+  s.dependency            "SDCycleScrollView"
+  s.dependency            "TMUserCenter"
 
  end
