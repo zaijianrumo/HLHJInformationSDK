@@ -18,10 +18,9 @@ Pod::Spec.new do |s|
   s.author       = { "zaijianrumo" => "2245190733@qq.com" }
   s.requires_arc  = true
 
-  s.source_files            = "HLHJInformationSDK.framework/Headers/*.{h}" 
-
-  s.ios.vendored_frameworks = "HLHJInformationSDK.framework"
-  s.resources               = "HLHJImageResources.bundle"
+  s.source_files            = "HLHJNewsFramework/HLHJInformationSDK.framework/Headers/*.{h}" 
+  s.ios.vendored_frameworks = "HLHJNewsFramework/HLHJInformationSDK.framework"
+  s.resources               = "HLHJNewsFramework/HLHJImageResources.bundle"
   s.xcconfig = {'VALID_ARCHS' => 'arm64 x86_64',
   }  
 
