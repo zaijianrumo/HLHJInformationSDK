@@ -10,16 +10,18 @@ Pod::Spec.new do |s|
                    DESC
 
   s.platform =   :ios, "9.0"
-  s.ios.deployment_target = "9.0"
+  s.ios.deployment_target = '9.0'
 
   s.homepage     = "https://github.com/zaijianrumo/HLHJInformationSDK"
   s.source       = { :git => "https://github.com/zaijianrumo/HLHJInformationSDK.git", :tag => "1.0.1"  }
-  s.source_files = "Classes/**/*"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "zaijianrumo" => "2245190733@qq.com" }
   s.requires_arc  = true
 
   s.source_files            = "HLHJInformationSDK.framework/Headers/*.{h}" 
+
+  s.frameworks = "Foundation","UIKit"
+
   s.ios.vendored_frameworks = "HLHJInformationSDK.framework"
   s.resources               = "HLHJImageResources.bundle"
 
