@@ -13,14 +13,16 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.homepage     = "https://github.com/zaijianrumo/HLHJInformationSDK"
-  s.source       = { :git => "https://github.com/zaijianrumo/HLHJInformationSDK.git", :tag => "1.0.1"  }
+  s.source       = { :git => "https://github.com/zaijianrumo/HLHJInformationSDK.git", :tag => s.version  }
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "zaijianrumo" => "2245190733@qq.com" }
-  s.requires_arc  = true
+  
 
-  s.source_files            = "HLHJNewsFramework/HLHJInformationSDK.framework/Headers/*.{h}" 
-  s.ios.vendored_frameworks = "HLHJNewsFramework/HLHJInformationSDK.framework"
-  s.resources               = "HLHJNewsFramework/HLHJImageResources.bundle"
+  s.source_files            = 'HHLHJNewsFramework/HLHJInformationSDK.framework/Headers/*.{h}'
+  s.ios.vendored_frameworks = "HHLHJNewsFramework/HLHJInformationSDK.framework"
+  s.resources               = "HHLHJNewsFramework/HLHJImageResources.bundle"
+
+  s.requires_arc  = true
   s.xcconfig = {'VALID_ARCHS' => 'arm64 x86_64',
   }  
 
