@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HLHJInformationSDK"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
 
   s.summary      = "天马茂县新闻资讯"
   s.description  = <<-DESC
@@ -18,9 +18,9 @@ Pod::Spec.new do |s|
   s.author       = { "zaijianrumo" => "2245190733@qq.com" }
     
 
-  s.source_files            = 'HHLHJNewsFramework/HLHJInformationSDK.framework/Headers/*.{h}'
-  s.ios.vendored_frameworks = 'HHLHJNewsFramework/HLHJInformationSDK.framework'
-  s.resources               = 'HHLHJNewsFramework/HLHJImageResources.bundle'
+  s.source_files            = "HLHJFramework/HLHJInformationSDK.framework/Headers/*.{h,m}"
+  s.ios.vendored_frameworks = "HLHJFramework/HLHJInformationSDK.framework"
+  s.resources               = "HLHJFramework/HLHJImageResources.bundle"
 
   s.requires_arc  = true
   s.xcconfig = {'VALID_ARCHS' => 'arm64 x86_64'}  
