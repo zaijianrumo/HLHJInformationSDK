@@ -10,19 +10,19 @@ Pod::Spec.new do |s|
                    DESC
 
   s.platform =   :ios, "9.0"
+
   s.ios.deployment_target = '9.0'
 
   s.homepage     = "https://github.com/zaijianrumo/HLHJInformationSDK"
-  s.source       = { :git => "https://github.com/zaijianrumo/HLHJInformationSDK.git", :tag => s.version  }
+  s.source       = { :git => "https://github.com/zaijianrumo/HLHJInformationSDK.git", :tag => s.version}
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author       = { "zaijianrumo" => "2245190733@qq.com" }
+  s.author       = { "zaijianrumo" => "2245190733@qq.com"}
     
 
   s.source_files            = "HLHJFramework/HLHJInformationSDK.framework/Headers/*.{h,m}"
   s.ios.vendored_frameworks = "HLHJFramework/HLHJInformationSDK.framework"
   s.resources               = "HLHJFramework/HLHJImageResources.bundle"
 
-  s.requires_arc  = true
   s.xcconfig = {'VALID_ARCHS' => 'arm64 x86_64'}  
 
   s.dependency            "AFNetworking"
