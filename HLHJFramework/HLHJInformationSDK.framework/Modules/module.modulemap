@@ -1,5 +1,5 @@
 framework module HLHJInformationSDK {
-  umbrella header "HLHJNewsSDK.h"
+  umbrella header "HLHJInformationSDK.h"
 
   export *
   module * { export * }
