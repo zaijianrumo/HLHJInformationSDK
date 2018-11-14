@@ -1,0 +1,6 @@
+framework module HLHJInformationSDK {
+  umbrella header "HLHJInformationSDK.h"
+
+  export *
+  module * { export * }
+}
