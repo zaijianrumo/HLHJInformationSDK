@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HLHJInformationSDK"
-  s.version      = "1.1.7"
+  s.version      = "1.1.8"
 
   s.summary      = "天马茂县新闻资讯"
   s.description  = <<-DESC
